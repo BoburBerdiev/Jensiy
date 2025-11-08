@@ -11,22 +11,23 @@ export default function Products4() {
               className="background-img"
               style={{ backgroundImage: "url(/assets/images/men.webp)" }}
             >
-              <div
-                  style={{
-                    position: "absolute",
-                    inset: 0,
-                    background: "rgba(255, 255, 255, 0.5)",
-                  }}
-              ></div>
+                <div
+                    style={{
+                        position: "absolute",
+                        inset: 0,
+                        background: "rgba(4, 29, 86, 0.5)",
+                    }}
+                >
+                </div>
             </div>
-            <div className="content_abs content_bottom content_left content_bottom-lg content_left-lg">
-              <h6 className="text-uppercase  fw-medium mb-3">
+            <div className="content_abs content_bottom content_left content_bottom-lg content_left-lg text-white">
+              <h6 className="text-uppercase  fw-medium mb-3 text-white">
                 Starting At $19
               </h6>
-              <h3 className=" mb-3">Women's T-Shirts</h3>
+              <h3 className=" mb-3 text-white">Women's T-Shirts</h3>
               <Link
                 href="/shop-1"
-                className="btn-link default-underline text-uppercase  fw-medium"
+                className="btn-link default-underline text-uppercase  fw-medium text-white"
               >
                 Shop Now
               </Link>
@@ -42,21 +43,21 @@ export default function Products4() {
               className="background-img"
               style={{ backgroundImage: "url(/assets/images/women.webp)" }}
             >
-              <div
-                  style={{
-                    position: "absolute",
-                    inset: 0,
-                    background: "rgba(255, 255, 255, 0.5)",
-                  }}
-              ></div>
-
+                <div
+                    style={{
+                        position: "absolute",
+                        inset: 0,
+                        background: "rgba(4, 29, 86, 0.5)",
+                    }}
+                >
+                </div>
             </div>
-            <div className="content_abs content_bottom content_left content_bottom-lg content_left-lg">
-              <h6 className="text-uppercase fw-medium mb-3">Starting At $39</h6>
-              <h3 className="mb-3">Men's Sportswear</h3>
+            <div className="content_abs content_bottom content_left content_bottom-lg content_left-lg text-white">
+              <h6 className="text-uppercase fw-medium mb-3 text-white">Starting At $39</h6>
+              <h3 className="mb-3 text-white">Men's Sportswear</h3>
               <Link
                 href="/shop-1"
-                className="btn-link default-underline text-uppercase fw-medium"
+                className="btn-link default-underline text-uppercase fw-medium text-white"
               >
                 Shop Now
               </Link>

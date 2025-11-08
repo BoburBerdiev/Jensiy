@@ -40,22 +40,22 @@ export default function CountDownComponent({
         <>
           {showCountdown ? (
             <>
-              <div className="day countdown-unit">
+              <div className="day countdown-unit text-white">
                 <span className="countdown-num d-block">{days}</span>
                 {isLabel && <span className={labelParentClass}>Days</span>}
               </div>
 
-              <div className="hour countdown-unit">
+              <div className="hour countdown-unit text-white">
                 <span className="countdown-num d-block">{hours}</span>
                 {isLabel && <span className={labelParentClass}>Hours</span>}
               </div>
 
-              <div className="min countdown-unit">
+              <div className="min countdown-unit text-white">
                 <span className="countdown-num d-block">{minutes}</span>
                 {isLabel && <span className={labelParentClass}>Mins</span>}
               </div>
 
-              <div className="sec countdown-unit">
+              <div className="sec countdown-unit text-white">
                 <span className="countdown-num d-block">{seconds}</span>
                 {isLabel && <span className={labelParentClass}>Sec</span>}
               </div>

@@ -10,7 +10,7 @@ export default function Products1() {
       <div className="container h-md-100">
         <div className="row h-md-100">
           <div className="col-lg-6 h-md-100">
-            <div className="collection-grid__item position-relative h-md-100 ">
+            <div className="collection-grid__item position-relative h-md-100 text-white">
               <div
                 className="background-img"
                 style={{
@@ -21,19 +21,20 @@ export default function Products1() {
                     style={{
                       position: "absolute",
                       inset: 0,
-                      background: "rgba(255, 255, 255, 0.5)",
+                      background: "rgba(4, 29, 86, 0.5)",
                     }}
-                ></div>
+                >
+                </div>
               </div>
 
-              <div className="content_abs content_bottom content_left content_bottom-md content_left-md">
-                <p className="text-uppercase mb-1">Hot List</p>
-                <h3 className="text-uppercase">
+              <div className="content_abs content_bottom content_left content_bottom-md content_left-md text-white">
+                <p className="text-uppercase mb-1 text-white">Hot List</p>
+                <h3 className="text-uppercase text-white">
                   <strong>Women</strong> Collection
                 </h3>
                 <Link
                   href="/shop-1"
-                  className="btn-link default-underline text-uppercase fw-medium"
+                  className="btn-link default-underline text-uppercase fw-medium text-white"
                 >
                   Shop Now
                 </Link>
@@ -55,19 +56,20 @@ export default function Products1() {
                     style={{
                       position: "absolute",
                       inset: 0,
-                      background: "rgba(255, 255, 255, 0.5)",
+                      background: "rgba(4, 29, 86, 0.5)",
+
                     }}
                 ></div>
 
               </div>
-              <div className="content_abs content_bottom content_left content_bottom-md content_left-md">
+              <div className="content_abs content_bottom content_left content_bottom-md content_left-md text-white">
                 <p className="text-uppercase mb-1">Hot List</p>
-                <h3 className="text-uppercase">
+                <h3 className="text-uppercase text-white">
                   <strong>Men</strong> Collection
                 </h3>
                 <Link
                   href="/shop-1"
-                  className="btn-link default-underline text-uppercase fw-medium"
+                  className="btn-link default-underline text-uppercase fw-medium text-white"
                 >
                   Shop Now
                 </Link>
@@ -89,18 +91,18 @@ export default function Products1() {
                           style={{
                             position: "absolute",
                             inset: 0,
-                            background: "rgba(255, 255, 255, 0.5)",
+                            background: "rgba(4, 29, 86, 0.5)",
                           }}
                       ></div>
                     </div>
                     <div className="content_abs content_bottom content_left content_bottom-md content_left-md">
-                      <p className="text-uppercase mb-1">Hot List</p>
-                      <h3 className="text-uppercase">
+                      <p className="text-uppercase mb-1 text-white">Hot List</p>
+                      <h3 className="text-uppercase text-white">
                         <strong>Kids</strong> Collection
                       </h3>
                       <Link
                         href="/shop-1"
-                        className="btn-link default-underline text-uppercase fw-medium"
+                        className="btn-link default-underline text-uppercase fw-medium text-white"
                       >
                         Shop Now
                       </Link>
