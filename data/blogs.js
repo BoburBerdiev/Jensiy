@@ -1,29 +1,25 @@
 export const blogs1 = [
   {
     id: 1,
-    imgSrc: "/assets/images/home/demo2/post1.jpg",
-    author: "Admin",
+    imgSrc: "/assets/images/gallereya/gal1.webp",
     date: "April 05, 2023",
     title: "Woman with good shoes is never be ugly place",
   },
   {
     id: 2,
-    imgSrc: "/assets/images/home/demo2/post2.jpg",
-    author: "Admin",
+    imgSrc: "/assets/images/gallereya/gal4.webp",
     date: "April 05, 2023",
     title: "What Freud Can Teach Us About Furniture",
   },
   {
     id: 3,
-    imgSrc: "/assets/images/home/demo2/post3.jpg",
-    author: "Admin",
+    imgSrc: "/assets/images/gallereya/gal5.webp",
     date: "April 05, 2023",
     title: "Habitant morbi tristique senectus",
   },
   {
     id: 4,
-    imgSrc: "/assets/images/home/demo2/post2.jpg",
-    author: "Admin",
+    imgSrc: "/assets/images/gallereya/gal3.webp",
     date: "April 05, 2023",
     title: "What Freud Can Teach Us About Furniture",
   },

@@ -11,7 +11,7 @@ export default function Products1() {
         <div className="row h-md-100">
           <div className="col-24">
             <h2 className="section-title text-uppercase text-center mb-1 mb-md-3 pb-xl-2 mb-xl-4">
-             About Us <strong> VINTAGE DENIM</strong>
+                О нас <strong> VINTAGE DENIM</strong>
             </h2>
           </div>
           <div className="col-lg-6 ">
