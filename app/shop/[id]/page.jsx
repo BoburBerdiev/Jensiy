@@ -21,6 +21,7 @@ export default async function ProductDetailsPage13(props) {
       <main className="page-wrapper">
         <div className="mb-md-1 pb-md-3"></div>
         <SingleProduct8 product={product} />
+          <div className="mb-3 mb-xl-5 pb-1 pb-xl-5"></div>
         <RelatedSlider />
       </main>
       <Footer1 />

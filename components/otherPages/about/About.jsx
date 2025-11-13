@@ -1,83 +1,78 @@
 import Image from "next/image";
 import React from "react";
+import GridBanner from "@/components/homes/home-1/GridBanner";
 
 export default function About() {
   return (
     <section className="about-us container">
       <div className="mw-930">
-        <h2 className="page-title">ABOUT Vintage Denim</h2>
+        <h2 className="page-title">О нас</h2>
       </div>
       <div className="about-us__content pb-5 mb-5">
-        <p className="mb-5">
-          <Image
-            style={{ height: "fit-content" }}
-            loading="lazy"
-            className="w-100 h-auto d-block"
-            src="/assets/images/bgg.jpg"
-            width="1410"
-            height="550"
-            alt="image"
-          />
-        </p>
-        <div className="mw-930">
-          <h3 className="mb-4">OUR STORY</h3>
-          <p className="fs-6 fw-medium mb-4">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-          <p className="mb-4">
-            Saw wherein fruitful good days image them, midst, waters upon, saw.
-            Seas lights seasons. Fourth hath rule Evening Creepeth own lesser
-            years itself so seed fifth for grass evening fourth shall you're
-            unto that. Had. Female replenish for yielding so saw all one to
-            yielding grass you'll air sea it, open waters subdue, hath. Brought
-            second Made. Be. Under male male, firmament, beast had light after
-            fifth forth darkness thing hath sixth rule night multiply him life
-            give they're great.
-          </p>
-          <div className="row mb-3">
-            <div className="col-md-6">
-              <h5 className="mb-3">Our Mission</h5>
-              <p className="mb-3">
-                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.
+          <div className=' hero-section mb-5 ratio ratio-21x9'>
+              <video className="w-100 h-100"
+                     poster={`/assets/videos/videos.mov`} playsInline autoPlay loop muted>
+                  <source
+                      className=""
+                      src={`/assets/videos/videos.mov`}
+                      type="video/mov"
+                  />
+                  <source className="" src={`/assets/videos/videos.mov`} type="video/ogv"/>
+                  <source className="" type="video/webm" src={`/assets/videos/videos.mov`}/>
+              </video>
+          </div>
+          <div className="mw-930">
+              <h3 className="mb-4">О НАС</h3>
+              <p className="fs-6 fw-medium mb-4">
+                  Фабрика "VINTAGE DENIM" — это место, где сочетаются высокие технологии, опытные мастера и любовь к дениму.
+                  Основанная в 2019 году, наша фабрика зарекомендовала себя как ведущий производитель джинсовой одежды,
+                  предлагая клиентам продукцию высочайшего качества.
               </p>
-            </div>
-            <div className="col-md-6">
-              <h5 className="mb-3">Our Vision</h5>
-              <p className="mb-3">
-                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.
+
+              <h3 className="mb-4">Наше производство</h3>
+              <p className="mb-4">
+                  Фабрика "VINTAGE DENIM" оснащена современным оборудованием, что позволяет нам производить джинсы,
+                  отвечающие самым строгим стандартам. Каждый этап производства — от выбора тканей до финальной обработки —
+                  находится под строгим контролем, чтобы гарантировать безупречное качество каждой пары джинсов.
               </p>
-            </div>
+              <p className="mb-4">
+                  Мы используем только высококачественные материалы. Наши ткани проходят несколько стадий обработки,
+                  включая покраску и смягчение, что обеспечивает долговечность и комфорт наших изделий.
+                  Специалисты фабрики следят за последними тенденциями в моде и внедряют инновационные технологии,
+                  такие как лазерная обработка и экс-крашение, чтобы наши джинсы были не только стильными, но и экологичными.
+              </p>
+
+              <h3 className="mb-4">Технологии производства</h3>
+              <p className="mb-4">
+                  На нашей фабрике используются передовые технологии и оборудование, что позволяет нам добиваться высочайшего
+                  качества продукции. В производственном процессе мы применяем:
+              </p>
+              <ul className="mb-4 list-disc ms-5">
+                  <li>Лазерную обработку денима — для создания уникальных узоров и эффектов.</li>
+                  <li>Экологически чистые методы окрашивания — минимальное воздействие на окружающую среду.</li>
+              </ul>
+
+
+
+              <h3 className="mb-4">Социальная ответственность</h3>
+              <p className="mb-4">
+                  Мы заботимся не только о качестве нашей продукции, но и о благополучии наших сотрудников и окружающей среды.
+                  В нашей компании действует программа устойчивого развития, которая включает:
+              </p>
+              <ul className="mb-4 list-disc ms-5">
+                  <li>Энергоэффективное производство: использование возобновляемых источников энергии.</li>
+                  <li>Экологически чистые материалы: переработка отходов производства.</li>
+                  <li>Социальные программы: обучение и развитие сотрудников, поддержка местных сообществ.</li>
+              </ul>
+
+              <h3 className="mb-4">Наши коллекции</h3>
+              <p className="mb-4">
+                  Мы предлагаем широкий ассортимент джинсовой одежды для мужчин, женщин и детей, включая классические и современные
+                  модели, такие как скинни, бойфренды, клеш и многие другие. Каждая коллекция создается с учётом разнообразных
+                  вкусов и предпочтений наших клиентов.
+              </p>
           </div>
-        </div>
-        <div className="mw-930 d-lg-flex align-items-lg-center">
-          <div className="image-wrapper col-lg-6">
-            <img
-              style={{ height: "fit-content" }}
-              className="h-auto"
-              loading="lazy"
-              src="/assets/images/vintage.jpg"
-              width="450"
-              height="500"
-              alt="image"
-            />
-          </div>
-          <div className="content-wrapper col-lg-6 px-lg-4">
-            <h5 className="mb-3">The Company</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-              sapien dignissim a elementum. Sociis metus, hendrerit mauris id
-              in. Quis sit sit ultrices tincidunt euismod luctus diam. Turpis
-              sodales orci etiam phasellus lacus id leo. Amet turpis nunc, nulla
-              massa est viverra interdum. Praesent auctor nulla morbi non
-              posuere mattis. Arcu eu id maecenas cras.
-            </p>
-          </div>
-        </div>
+
       </div>
     </section>
   );

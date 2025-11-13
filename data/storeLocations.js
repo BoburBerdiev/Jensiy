@@ -2,8 +2,8 @@ export const storesLocations = [
   {
     id: 1,
     city: "London",
-    address: "1418 River Drive, Suite 35 Cottonhall, CA 9622",
-    country: "United States",
+    address: "Ташкентская область, город Алмалык, Бустонский МФЮ, улица Бустон, дом №8",
+    country: "Ташкентская область",
     phone: "+998 (99) 807-01-00",
     hours: "10 am - 10 pm EST, 7 days a week",
     emailAddress: "Vintagedenimuz@gmail.com",
@@ -13,8 +13,8 @@ export const storesLocations = [
   {
     id: 2,
     city: "Istanbul",
-    address: "1418 River Drive, Suite 35 Cottonhall, CA 9622",
-    country: "United States",
+    address: "Ташкентская область, город Алмалык, Бустонский МФЮ, улица Бустон, дом №8",
+    country: "Ташкент",
     phone: "+998 (99) 807-01-00",
     hours: "10 am - 10 pm EST, 7 days a week",
     emailAddress: "Vintagedenimuz@gmail.com",
@@ -24,7 +24,7 @@ export const storesLocations = [
   {
     id: 3,
     city: "New York",
-    address: "1418 River Drive, Suite 35 Cottonhall, CA 9622",
+    address: "Ташкентская область, город Алмалык, Бустонский МФЮ, улица Бустон, дом №8",
     country: "United States",
     phone: "+998 (99) 807-01-00",
     hours: "10 am - 10 pm EST, 7 days a week",

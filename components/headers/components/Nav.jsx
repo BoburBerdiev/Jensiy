@@ -55,59 +55,58 @@ export default function Nav() {
   }, []);
   return (
     <>
-      <li className="navigation__item">
+        <li className="navigation__item">
+            <Link
+                href="/"
+                className={`navigation__link ${pathname == "/" ? "menu-active" : ""}`}
+            >
+                Главная
+            </Link>
+        </li>
 
-        <Link
-            href={'/'}
-            className={`navigation__link ${
-                pathname == "/" ? "menu-active" : ""
-            }`}
-        >
-          Home
-        </Link>
+        <li className="navigation__item">
+            <Link
+                href="/about"
+                className={`navigation__link ${
+                    pathname == "/about" ? "menu-active" : ""
+                }`}
+            >
+                О нас
+            </Link>
+        </li>
 
-        {/* <!-- /.box-menu --> */}
-      </li>
-      <li className="navigation__item">
-        <Link
-            href="/about"
-            className={`navigation__link ${
-                pathname == "/about" ? "menu-active" : ""
-            }`}
-        >
-          About
-        </Link>
-      </li>
-      <li className="navigation__item">
-        <Link
-            href={'/shop'}
-            className={`navigation__link ${
-                pathname == "/shop" ? "menu-active" : ""
-            }`}
-        >
-          Shop
-        </Link>
-      </li>
-      <li className="navigation__item">
-        <Link
-            href={'/blog/'}
-            className={`navigation__link ${
-                pathname == "/blog" ? "menu-active" : ""
-            }`}
-        >
-          Blog
-        </Link>
-      </li>
-      <li className="navigation__item">
-        <Link
-          href="/contact"
-          className={`navigation__link ${
-            pathname == "/contact" ? "menu-active" : ""
-          }`}
-        >
-          Contact
-        </Link>
-      </li>
+        <li className="navigation__item">
+            <Link
+                href="/shop"
+                className={`navigation__link ${
+                    pathname == "/shop" ? "menu-active" : ""
+                }`}
+            >
+                Каталог
+            </Link>
+        </li>
+
+        <li className="navigation__item">
+            <Link
+                href="/blog"
+                className={`navigation__link ${
+                    pathname == "/blog" ? "menu-active" : ""
+                }`}
+            >
+                Новости
+            </Link>
+        </li>
+
+        <li className="navigation__item">
+            <Link
+                href="/contact"
+                className={`navigation__link ${
+                    pathname == "/contact" ? "menu-active" : ""
+                }`}
+            >
+                Контакты
+            </Link>
+        </li>
     </>
   );
 }

@@ -42,11 +42,10 @@ export default function Clients() {
   };
   return (
     <section className="brands-carousel container mw-930">
-      {/*<h5 className="mb-3 mb-xl-5">Company Partners</h5>*/}
-      <h2 className="section-title text-uppercase text-center mb-4 pb-xl-2 mb-xl-4">
-        Company Partners
+      <h2 className="section-title text-uppercase text-center mb-4 pb-xl-2 mb-xl-4 ">
+          Партнеры
       </h2>
-      <div className="position-relative">
+      <div className="position-relative mt-2">
         <Swiper
           {...swiperOptions}
           className="swiper-container js-swiper-slider"

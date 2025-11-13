@@ -21,48 +21,8 @@ export default function SiteMap() {
           {/* <!-- /.sitemap__bg w-50 d-none d-lg-block --> */}
           <div className="sitemap__links w-50 flex-grow-1">
             <div className="modal-content">
-              <div className="modal-header">
-                <ul className="nav nav-pills" id="pills-tab" role="tablist">
-                  <li className="nav-item" role="presentation">
-                    <a
-                      className="nav-link active rounded-1 text-uppercase"
-                      id="pills-item-1-tab"
-                      data-bs-toggle="pill"
-                      href="#pills-item-1"
-                      role="tab"
-                      aria-controls="pills-item-1"
-                      aria-selected="true"
-                    >
-                      WOMEN
-                    </a>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <a
-                      className="nav-link rounded-1 text-uppercase"
-                      id="pills-item-2-tab"
-                      data-bs-toggle="pill"
-                      href="#pills-item-2"
-                      role="tab"
-                      aria-controls="pills-item-2"
-                      aria-selected="false"
-                    >
-                      MEN
-                    </a>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <a
-                      className="nav-link rounded-1 text-uppercase"
-                      id="pills-item-3-tab"
-                      data-bs-toggle="pill"
-                      href="#pills-item-3"
-                      role="tab"
-                      aria-controls="pills-item-3"
-                      aria-selected="false"
-                    >
-                      KIDS
-                    </a>
-                  </li>
-                </ul>
+              <div className="modal-header d-flex align-items-center justify-content-end">
+
                 <button
                   type="button"
                   className="btn-close-lg"
@@ -80,129 +40,43 @@ export default function SiteMap() {
                     aria-labelledby="pills-item-1-tab"
                   >
                     <div className="row">
-                      <ul
-                        className="nav nav-tabs list-unstyled col-5 d-block"
-                        id="myTab"
-                        role="tablist"
-                      >
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
+                        <ul
+                            className="nav nav-tabs list-unstyled col-5 d-block"
+                            role="tablist"
                         >
-                          <a
-                            className="nav-link nav-link_rline active"
-                            id="tab-item-1-tab"
-                            data-bs-toggle="tab"
-                            href="#tab-item-1"
-                            role="tab"
-                            aria-controls="tab-item-1"
-                            aria-selected="true"
-                          >
-                            <span className="rline-content">WOMEN</span>
-                          </a>
-                        </li>
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
-                        >
-                          <a
-                            className="nav-link nav-link_rline"
-                            id="tab-item-2-tab"
-                            data-bs-toggle="tab"
-                            href="#tab-item-2"
-                            role="tab"
-                            aria-controls="tab-item-2"
-                            aria-selected="false"
-                          >
-                            <span className="rline-content">MAN</span>
-                          </a>
-                        </li>
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
-                        >
-                          <a
-                            className="nav-link nav-link_rline"
-                            id="tab-item-3-tab"
-                            data-bs-toggle="tab"
-                            href="#tab-item-3"
-                            role="tab"
-                            aria-controls="tab-item-3"
-                            aria-selected="false"
-                          >
-                            <span className="rline-content">KIDS</span>
-                          </a>
-                        </li>
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
-                        >
-                          <a className="nav-link nav-link_rline" href="#">
-                            <span className="rline-content">HOME</span>
-                          </a>
-                        </li>
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
-                        >
-                          <a className="nav-link nav-link_rline" href="#">
-                            <span className="rline-content">COLLECTION</span>
-                          </a>
-                        </li>
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
-                        >
-                          <a
-                            className="nav-link nav-link_rline text-red"
-                            href="#"
-                          >
-                            SALE UP TO 50% OFF
-                          </a>
-                        </li>
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
-                        >
-                          <a className="nav-link nav-link_rline" href="#">
-                            <span className="rline-content">NEW</span>
-                          </a>
-                        </li>
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
-                        >
-                          <a className="nav-link nav-link_rline" href="#">
-                            <span className="rline-content">SHOES</span>
-                          </a>
-                        </li>
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
-                        >
-                          <a className="nav-link nav-link_rline" href="#">
-                            <span className="rline-content">ACCESSORIES</span>
-                          </a>
-                        </li>
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
-                        >
-                          <a className="nav-link nav-link_rline" href="#">
-                            <span className="rline-content">JOIN LIFE</span>
-                          </a>
-                        </li>
-                        <li
-                          className="nav-item position-relative"
-                          role="presentation"
-                        >
-                          <a className="nav-link nav-link_rline" href="#">
-                            <span className="rline-content">Vintage Denim</span>
-                          </a>
-                        </li>
-                      </ul>
+                            <li className="nav-item position-relative" role="presentation">
+                                <a className="nav-link nav-link_rline" href="/">
+                                    <span className="rline-content">Главная</span>
+                                </a>
+                            </li>
 
-                      <div className="tab-content col-7" id="myTabContent">
+                            <li className="nav-item position-relative" role="presentation">
+                                <a className="nav-link nav-link_rline" href="/about">
+                                    <span className="rline-content">О нас</span>
+                                </a>
+                            </li>
+
+                            <li className="nav-item position-relative" role="presentation">
+                                <a className="nav-link nav-link_rline" href="/catalog">
+                                    <span className="rline-content">Каталог</span>
+                                </a>
+                            </li>
+
+                            <li className="nav-item position-relative" role="presentation">
+                                <a className="nav-link nav-link_rline" href="/contact">
+                                    <span className="rline-content">Контакты</span>
+                                </a>
+                            </li>
+
+                            <li className="nav-item position-relative" role="presentation">
+                                <a className="nav-link nav-link_rline" href="/news">
+                                    <span className="rline-content">Новости</span>
+                                </a>
+                            </li>
+                        </ul>
+
+
+                        <div className="tab-content col-7" id="myTabContent">
                         <div
                           className="tab-pane fade show active"
                           id="tab-item-1"
@@ -210,302 +84,30 @@ export default function SiteMap() {
                           aria-labelledby="tab-item-1-tab"
                         >
                           <ul className="sub-menu list-unstyled">
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                New
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Best Sellers
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Collaborations®
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Sets
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Denim
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Jackets & Coats
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Overshirts
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Trousers
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Jeans
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Dresses
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Sweatshirts and Hoodies
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                T-shirts & Tops
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Shirts & Blouses
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Shorts and Bermudas
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Shoes
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <Link
-                                href="/shop3"
-                                className="menu-link menu-link_us-s"
-                              >
-                                Accessories
-                              </Link>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Bags
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <Link
-                                href="/about"
-                                className="menu-link menu-link_us-s"
-                              >
-                                Gift Card
-                              </Link>
-                            </li>
+                              <li className="nav-item position-relative" role="presentation">
+                                  <a className="nav-link nav-link_rline">
+      <span className="rline-content">
+        Ташкентская область, город Алмалык, Бустонский МФЙ, улица Бустон, дом №8<br />
+        Ташкентская область
+      </span>
+                                  </a>
+                              </li>
+
+                              <li className="nav-item position-relative" role="presentation">
+                                  <a className="nav-link nav-link_rline" href="mailto:Vintagedenimuz@gmail.com">
+                                      <span className="rline-content">Vintagedenimuz@gmail.com</span>
+                                  </a>
+                              </li>
+
+                              <li className="nav-item position-relative" role="presentation">
+                                  <a className="nav-link nav-link_rline" href="tel:+998998070100">
+                                      <span className="rline-content">+998 (99) 807-01-00</span>
+                                  </a>
+                              </li>
                           </ul>
                           {/* <!-- /.sub-menu --> */}
                         </div>
-                        <div
-                          className="tab-pane fade"
-                          id="tab-item-2"
-                          role="tabpanel"
-                          aria-labelledby="tab-item-2-tab"
-                        >
-                          <ul className="sub-menu list-unstyled">
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Best Sellers
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                New
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Sets
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Denim
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Collaborations®
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Trousers
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Jackets & Coats
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Overshirts
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Dresses
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Jeans
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Sweatshirts and Hoodies
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <Link
-                                href="/about"
-                                className="menu-link menu-link_us-s"
-                              >
-                                Gift Card
-                              </Link>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Shirts & Blouses
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                T-shirts & Tops
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Shorts and Bermudas
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <Link
-                                href="/shop3"
-                                className="menu-link menu-link_us-s"
-                              >
-                                Accessories
-                              </Link>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Shoes
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Bags
-                              </a>
-                            </li>
-                          </ul>
-                          {/* <!-- /.sub-menu --> */}
-                        </div>
-                        <div
-                          className="tab-pane fade"
-                          id="tab-item-3"
-                          role="tabpanel"
-                          aria-labelledby="tab-item-3-tab"
-                        >
-                          <ul className="sub-menu list-unstyled">
-                            <li className="sub-menu__item">
-                              <Link
-                                href="/about"
-                                className="menu-link menu-link_us-s"
-                              >
-                                Gift Card
-                              </Link>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Collaborations®
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Sets
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Denim
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                New
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Best Sellers
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Overshirts
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Jackets & Coats
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Jeans
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Trousers
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Shorts and Bermudas
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Shoes
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <Link
-                                href="/shop3"
-                                className="menu-link menu-link_us-s"
-                              >
-                                Accessories
-                              </Link>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Dresses
-                              </a>
-                            </li>
-                            <li className="sub-menu__item">
-                              <a href="#" className="menu-link menu-link_us-s">
-                                Bags
-                              </a>
-                            </li>
-                          </ul>
-                          {/* <!-- /.sub-menu --> */}
-                        </div>
+
                       </div>
                     </div>
                     {/* <!-- /.row --> */}

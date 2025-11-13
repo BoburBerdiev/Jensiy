@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function Products2() {
   const { toggleWishlist, isAddedtoWishlist } = useContextElement();
   const { addProductToCart, isAddedToCartProducts } = useContextElement();
-  const [currentCategory, setCurrentCategory] = useState(filterCategories[0]);
+    const [currentCategory, setCurrentCategory] = useState(filterCategories[0]);
   const [filtered, setFiltered] = useState(products51);
   useEffect(() => {
     if (currentCategory == "Все") {

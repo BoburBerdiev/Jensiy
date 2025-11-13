@@ -4,37 +4,16 @@ import Link from "next/link";
 export default function Products1() {
   return (
     <section
-      className="collections-grid collections-grid_masonry"
-      id="section-collections-grid_masonry"
     >
-      <div className="container h-md-100">
-        <div className="row h-md-100">
+      <div className="container ">
+        <div className="row ">
           <div className="col-24">
             <h2 className="section-title text-uppercase text-center mb-1 mb-md-3 pb-xl-2 mb-xl-4">
-                О нас <strong> VINTAGE DENIM</strong>
+                О нас
             </h2>
           </div>
-          <div className="col-lg-6 ">
-            <div className="collection-grid__item position-relative h-md-100 text-white">
-              <div
-                className="background-img"
-                style={{
-                  backgroundImage: "url(/assets/images/vintage.jpg)",
-                }}
-              >
-                {/*<div*/}
-                {/*    style={{*/}
-                {/*      position: "absolute",*/}
-                {/*      inset: 0,*/}
-                {/*      background: "rgba(4, 29, 86, 0.5)",*/}
-                {/*    }}*/}
-                {/*>*/}
-                {/*</div>*/}
-              </div>
-            </div>
-          </div>
-          {/* <!-- /.col-md-6 --> */}
-          <div className="col-lg-6 h-md-100">
+
+          <div className="col-24 ">
             <p className="fs-6 fw-medium mb-2">
               Фабрика "VINTAGE DENIM" — это место, где сочетаются высокие технологии, опытные мастера и любовь к дениму.
 

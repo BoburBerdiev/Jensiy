@@ -2,7 +2,7 @@
   &-page {
     &-title {
       width: 112.5rem;
-      height: 16rem;
+      height: 10rem;
       max-width: calc(100% - 1.875rem);
       border: 2px solid $border-color;
       margin: 0 auto;
@@ -36,7 +36,7 @@
       }
 
       @include media-breakpoint-up(sm) {
-        height: 27.5rem;
+        height: 18.5rem;
         padding: 0;
       }
     }

@@ -25,29 +25,17 @@ export default function Blog2() {
             loading="lazy"
             src="/assets/images/blog_title_bg.jpg"
             width="1780"
-            height="420"
+            height="320"
             alt="image"
           />
         </div>
         <div className="container">
-          <h2 className="page-title">The Blog</h2>
-          <div className="blog__filter">
-            {categories.map((elm, i) => (
-              <a
-                onClick={() => setActiveCategory(elm)}
-                key={i}
-                className={`menu-link menu-link_us-s ${
-                  activeCategory == elm ? "menu-link_active" : ""
-                }`}
-              >
-                {elm}
-              </a>
-            ))}
-          </div>
+          <h2 className="page-title">Новости</h2>
+
         </div>
       </section>
       <section className="blog-page container">
-        <h2 className="d-none">The Blog</h2>
+        <h2 className="d-none">Новости</h2>
         <div className="blog-grid row row-cols-1 row-cols-md-2 row-cols-xl-3">
           {filteredBlogs.map((elm, i) => (
             <div key={i} className="blog-grid__item">
@@ -63,9 +51,6 @@ export default function Blog2() {
               </div>
               <div className="blog-grid__item-detail">
                 <div className="blog-grid__item-meta">
-                  <span className="blog-grid__item-meta__author">
-                    By {elm.author}
-                  </span>
                   <span className="blog-grid__item-meta__date">{elm.date}</span>
                 </div>
                 <div className="blog-grid__item-title">
@@ -84,14 +69,8 @@ export default function Blog2() {
             </div>
           ))}
         </div>
-        <p className="mb-5 text-center fw-medium">SHOWING 36 of 497 items</p>
-        <Pagination1 />
 
-        <div className="text-center">
-          <a className="btn-link btn-link_lg text-uppercase fw-medium" href="#">
-            Show More
-          </a>
-        </div>
+
       </section>{" "}
     </>
   );

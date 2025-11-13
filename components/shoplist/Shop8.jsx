@@ -1,7 +1,6 @@
 "use client";
 import {products1} from "@/data/products/fashion";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Star from "../common/Star";
 import ColorSelection from "../common/ColorSelection";
 import { Navigation } from "swiper/modules";
 import { useState } from "react";
@@ -10,12 +9,16 @@ import Link from "next/link";
 import { useContextElement } from "@/context/Context";
 const itemPerRow = [2, 3, 4];
 import Image from "next/image";
-import { openModalShopFilter } from "@/utlis/aside";
-import { sortingOptions } from "@/data/products/productCategories";
+const filterCategories = ["Все","Мужчина", "Женщина", "Ребенок"];
+
+
+
 export default function Shop8() {
   const { toggleWishlist, isAddedtoWishlist } = useContextElement();
   const { setQuickViewItem } = useContextElement();
   const { addProductToCart, isAddedToCartProducts } = useContextElement();
+    const [currentCategory, setCurrentCategory] = useState(filterCategories[0]);
+
   const [selectedColView, setSelectedColView] = useState(4);
   return (
     <section className="shop-main container">
@@ -24,18 +27,28 @@ export default function Shop8() {
           <BreadCumb />
         </div>
 
+          <ul className="nav nav-tabs mb-3 text-uppercase justify-content-center">
+              {filterCategories.map((elm, i) => (
+                  <li
+                      onClick={() => setCurrentCategory(elm)}
+                      key={i}
+                      className="nav-item"
+                      role="presentation"
+                  >
+                      <a
+                          className={`nav-link nav-link_underscore ${
+                              currentCategory == elm ? "active" : ""
+                          }`}
+                      >
+                          {elm}
+                      </a>
+                  </li>
+              ))}
+          </ul>
+
         <div className="shop-acs d-flex align-items-center justify-content-between justify-content-md-end flex-grow-1">
-          <select
-            className="shop-acs__select form-select w-auto border-0 py-0 order-1 order-md-0"
-            aria-label="Sort Items"
-            name="total-number"
-          >
-            {sortingOptions.map((option, index) => (
-              <option key={index} value={option.value}>
-                {option.label}
-              </option>
-            ))}
-          </select>
+
+
 
           <div className="shop-asc__seprator mx-3 bg-light d-none d-md-block order-md-0"></div>
 
@@ -55,28 +68,8 @@ export default function Shop8() {
           </div>
           {/* <!-- /.col-size --> */}
 
-          <div className="shop-asc__seprator mx-3 bg-light d-none d-lg-block order-md-1"></div>
 
-          <div className="shop-filter d-flex align-items-center order-0 order-md-3">
-            <button
-              className="btn-link btn-link_f d-flex align-items-center ps-0 js-open-aside"
-              onClick={openModalShopFilter}
-            >
-              <svg
-                className="d-inline-block align-middle me-2"
-                width="14"
-                height="10"
-                viewBox="0 0 14 10"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <use href="#icon_filter" />
-              </svg>
-              <span className="text-uppercase fw-medium d-inline-block align-middle">
-                Filter
-              </span>
-            </button>
-          </div>
+
           {/* <!-- /.col-size d-flex align-items-center ms-auto ms-md-3 --> */}
         </div>
         {/* <!-- /.shop-acs --> */}
@@ -181,34 +174,24 @@ export default function Shop8() {
                     <ColorSelection />{" "}
                   </div>
                 )}
-                {elm.reviews && (
-                  <div className="product-card__review d-flex align-items-center">
-                    <div className="reviews-group d-flex">
-                      <Star stars={elm.rating} />
-                    </div>
-                    <span className="reviews-note text-lowercase text-secondary ms-1">
-                      {elm.reviews}
-                    </span>
-                  </div>
-                )}
 
-                <button
-                  className={`pc__btn-wl position-absolute top-0 end-0 bg-transparent border-0 js-add-wishlist ${
-                    isAddedtoWishlist(elm.id) ? "active" : ""
-                  }`}
-                  onClick={() => toggleWishlist(elm.id)}
-                  title="Add To Wishlist"
-                >
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <use href="#icon_heart" />
-                  </svg>
-                </button>
+                {/*<button*/}
+                {/*  className={`pc__btn-wl position-absolute top-0 end-0 bg-transparent border-0 js-add-wishlist ${*/}
+                {/*    isAddedtoWishlist(elm.id) ? "active" : ""*/}
+                {/*  }`}*/}
+                {/*  onClick={() => toggleWishlist(elm.id)}*/}
+                {/*  title="Add To Wishlist"*/}
+                {/*>*/}
+                {/*  <svg*/}
+                {/*    width="16"*/}
+                {/*    height="16"*/}
+                {/*    viewBox="0 0 20 20"*/}
+                {/*    fill="none"*/}
+                {/*    xmlns="http://www.w3.org/2000/svg"*/}
+                {/*  >*/}
+                {/*    <use href="#icon_heart" />*/}
+                {/*  </svg>*/}
+                {/*</button>*/}
               </div>
               {/*{elm.discont && (*/}
               {/*  <div className="pc-labels position-absolute top-0 start-0 w-100 d-flex justify-content-between">*/}
@@ -239,7 +222,7 @@ export default function Shop8() {
           className="btn btn-primary text-uppercase fw-medium fs-base"
           href="#"
         >
-          Show More
+            Показать больше
         </a>
       </div>
     </section>
