@@ -2088,7 +2088,7 @@ export const products51 = [
     imgSrc2: "/assets/images/catalog/jeans1.webp",
     reviews: "8k+ reviews",
     rating: 5,
-    filterCategory2: "Women",
+    filterCategory2: "Мужчина",
     filterCategory: "New Arrivals",
   },
   {
@@ -2100,7 +2100,7 @@ export const products51 = [
     imgSrc2: "/assets/images/catalog/jeans2.webp",
     colors: ["#444", "#e344a2", "#000"],
     discont: 67,
-    filterCategory2: "Jackets",
+    filterCategory2: "Женщина",
     filterCategory: "Best Seller",
   },
   {
@@ -2110,7 +2110,7 @@ export const products51 = [
     price: 17,
     imgSrc: "/assets/images/catalog/jeans3.webp",
     imgSrc2: "/assets/images/catalog/jeans3.webp",
-    filterCategory2: "Accessories",
+    filterCategory2: "Ребенок",
     filterCategory: "New Arrivals",
   },
   {
@@ -2122,7 +2122,7 @@ export const products51 = [
     imgSrc: "/assets/images/catalog/jeans4.webp",
     imgSrc2: "/assets/images/catalog/jeans4.webp",
     isNew: true,
-    filterCategory2: "Jackets",
+    filterCategory2: "Мужчина",
     filterCategory: "Best Seller",
   },
   {
@@ -2132,7 +2132,7 @@ export const products51 = [
     price: 29,
     imgSrc: "/assets/images/catalog/jeans5.webp",
     imgSrc2: "/assets/images/catalog/jeans5.webp",
-    filterCategory2: "Jackets",
+    filterCategory2: "Мужчина",
     filterCategory: "New Arrivals",
   },
   {
@@ -2142,7 +2142,7 @@ export const products51 = [
     price: 62,
     imgSrc: "/assets/images/catalog/jeans6.webp",
     imgSrc2: "/assets/images/catalog/jeans6.webp",
-    filterCategory2: "StayHome",
+    filterCategory2: "Мужчина",
     filterCategory: "New Arrivals",
   },
   {
@@ -2152,7 +2152,7 @@ export const products51 = [
     price: 17,
     imgSrc: "/assets/images/catalog/jeans7.webp",
     imgSrc2: "/assets/images/catalog/jeans7.webp",
-    filterCategory2: "StayHome",
+    filterCategory2: "Женщина",
     filterCategory: "Best Seller",
   },
   {
@@ -2163,7 +2163,7 @@ export const products51 = [
     price: 99,
     imgSrc: "/assets/images/catalog/jeans8.webp",
     imgSrc2: "/assets/images/catalog/jeans8.webp",
-    filterCategory2: "Hoodies",
+    filterCategory2: "Женщина",
     filterCategory: "New Arrivals",
   },
   {
@@ -2175,7 +2175,7 @@ export const products51 = [
     imgSrc2: "/assets/images/catalog/product_9-1.jpeg",
     reviews: "8k+ reviews",
     rating: 5,
-    filterCategory2: "StayHome",
+    filterCategory2: "Женщина",
     filterCategory: "Top Rated",
   },
   {
@@ -2185,7 +2185,7 @@ export const products51 = [
     price: 62,
     imgSrc: "/assets/images/catalog/product_10.jpeg",
     imgSrc2: "/assets/images/catalog/product_10-1.jpeg",
-    filterCategory2: "Hoodies",
+    filterCategory2: "Женщина",
     filterCategory: "Top Rated",
   },
   {
@@ -2195,7 +2195,7 @@ export const products51 = [
     price: 17,
     imgSrc: "/assets/images/catalog/product_11.jpeg",
     imgSrc2: "/assets/images/catalog/product_11-1.jpeg",
-    filterCategory2: "Hoodies",
+    filterCategory2: "Ребенок",
     filterCategory: "New Arrivals",
   },
   {
@@ -2206,7 +2206,7 @@ export const products51 = [
     price: 99,
     imgSrc: "/assets/images/catalog/product_12.jpeg",
     imgSrc2: "/assets/images/catalog/product_12-1.jpeg",
-    filterCategory2: "Shoes",
+    filterCategory2: "Ребенок",
     filterCategory: "Top Rated",
   },
   {
@@ -2216,7 +2216,7 @@ export const products51 = [
     price: 29,
     imgSrc: "/assets/images/catalog/product_13.jpeg",
     imgSrc2: "/assets/images/catalog/product_13-1.jpeg",
-    filterCategory2: "Men",
+    filterCategory2: "Ребенок",
     filterCategory: "Top Rated",
   },
   {
@@ -2226,7 +2226,7 @@ export const products51 = [
     price: 62,
     imgSrc: "/assets/images/catalog/product_14.jpeg",
     imgSrc2: "/assets/images/catalog/product_14-1.jpeg",
-    filterCategory2: "StayHome",
+    filterCategory2: "Ребенок",
     filterCategory: "New Arrivals",
   },
   {
@@ -2236,7 +2236,7 @@ export const products51 = [
     price: 17,
     imgSrc: "/assets/images/catalog/product_15.jpeg",
     imgSrc2: "/assets/images/catalog/product_15-1.jpeg",
-    filterCategory2: "Men",
+    filterCategory2: "Ребенок",
     filterCategory: "New Arrivals",
   },
   {
@@ -2247,7 +2247,7 @@ export const products51 = [
     price: 99,
     imgSrc: "/assets/images/catalog/product_16.jpeg",
     imgSrc2: "/assets/images/catalog/product_16-1.jpeg",
-    filterCategory2: "Women",
+    filterCategory2: "Ребенок",
     filterCategory: "New Arrivals",
   },
 ];

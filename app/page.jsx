@@ -12,6 +12,8 @@ import Products4 from "@/components/homes/home-1/Products4";
 import Products5 from "@/components/homes/home-1/Products5";
 import Clients from "@/components/otherPages/about/Clients";
 import React from "react";
+import GridBanner from "@/components/homes/home-1/GridBanner";
+import Banner from "@/components/homes/home-1/Banner";
 
 export const metadata = {
   title: "Home 1 || Vintage Denim",
@@ -28,10 +30,14 @@ export default function Home() {
             <div className="mb-3 pb-3 mb-md-4 pb-md-4 mb-xl-5 pb-xl-5"></div>
             <div className="pb-1"></div>
             <Products1 />
+            <div className="mb-3 pb-3 mb-md-4 pb-md-4 mb-xl-5 pb-xl-5"></div>
+            <GridBanner/>
             <div className="mb-4 pb-4 mb-xl-5 pb-xl-5"></div>
             <Products2 />
+            {/*<div className="mb-3 mb-xl-5 pb-1 pb-xl-5"></div>*/}
+            {/*<Products3 />*/}
             <div className="mb-3 mb-xl-5 pb-1 pb-xl-5"></div>
-            <Products3 />
+            <Banner />
             <div className="mb-3 mb-xl-5 pb-1 pb-xl-5"></div>
             <Products4 />
             <div className="mb-5 pb-1 pb-xl-4"></div>

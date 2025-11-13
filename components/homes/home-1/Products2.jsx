@@ -1,11 +1,10 @@
 "use client";
-import Star from "@/components/common/Star";
 import Link from "next/link";
 import { useContextElement } from "@/context/Context";
-const filterCategories = ["All", "New Arrivals", "Best Seller", "Top Rated"];
+const filterCategories = ["Все","Мужчина", "Женщина", "Ребенок"];
 import { products51 } from "@/data/products/fashion";
 
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import Image from "next/image";
 
 export default function Products2() {
@@ -14,7 +13,7 @@ export default function Products2() {
   const [currentCategory, setCurrentCategory] = useState(filterCategories[0]);
   const [filtered, setFiltered] = useState(products51);
   useEffect(() => {
-    if (currentCategory == "All") {
+    if (currentCategory == "Все") {
       setFiltered(products51);
     } else {
       setFiltered([
@@ -103,14 +102,6 @@ export default function Products2() {
                     <div className="product-card__price d-flex">
                       <span className="money price">${elm.price}</span>
                     </div>
-                    <div className="product-card__review d-flex align-items-center">
-                      <div className="reviews-group d-flex">
-                        <Star stars={elm.rating} />
-                      </div>
-                      <span className="reviews-note text-lowercase text-secondary ms-1">
-                        {elm.reviews}
-                      </span>
-                    </div>
 
                     <button
                       className={`pc__btn-wl position-absolute top-0 end-0 bg-transparent border-0 js-add-wishlist ${
@@ -140,7 +131,7 @@ export default function Products2() {
               className="btn-link btn-link_lg default-underline text-uppercase fw-medium"
               href="/shop-1"
             >
-              Discover More
+              Просмотреть все
             </Link>
           </div>
         </div>
