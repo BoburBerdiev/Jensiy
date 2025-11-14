@@ -3,7 +3,7 @@
 
 
 export const additionalShopPageitems = [
-  { id: 1, href: "/shop-12", title: "Collection Grid" },
+    { id: 1, href: "/shop-12", title: "Collection Grid" },
   { id: 2, href: "/product1_simple/1", title: "Simple Product" },
   { id: 3, href: "/product2_variable/2", title: "Variable Product" },
   { id: 4, href: "/product3_external/2", title: "External Product" },
@@ -15,6 +15,14 @@ export const additionalShopPageitems = [
   { id: 10, href: "/shop_order_complete", title: "Order Complete" },
   { id: 11, href: "/shop_order_tracking", title: "Order Tracking" },
 ];
+
+export const aboutPageitems = [
+    { id: 1, href: "/about/2", title: "Collection Grid" },
+    { id: 1, href: "/about/3", title: "Collection Grid" },
+    { id: 1, href: "/about/4", title: "Collection Grid" },
+    { id: 1, href: "/about/5", title: "Collection Grid" },
+
+]
 
 
 

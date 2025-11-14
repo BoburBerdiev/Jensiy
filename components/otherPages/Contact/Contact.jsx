@@ -32,7 +32,7 @@ export default function Contact() {
                                 onSubmit={(e) => e.preventDefault()}
                             >
                                 <h3 className="mb-5">Свяжитесь с нами</h3>
-                                <div className="form-floating my-4">
+                                <div className="form-floating   ">
                                     <input
                                         type="text"
                                         className="form-control"

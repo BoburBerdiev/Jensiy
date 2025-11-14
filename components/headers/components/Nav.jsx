@@ -1,11 +1,6 @@
 "use client";
 import {
-  additionalShopPageitems,
-  blogmenuItems,
-  homePages,
-  othersMenuItems,
-  shopDetails,
-  shopList,
+    aboutPageitems
 } from "@/data/menu";
 import Link from "next/link";
 import React, { useEffect } from "react";
@@ -64,17 +59,43 @@ export default function Nav() {
             </Link>
         </li>
 
+        {/*<li className="navigation__item">*/}
+        {/*    <Link*/}
+        {/*        href="/about"*/}
+        {/*        className={`navigation__link ${*/}
+        {/*            pathname == "/about" ? "menu-active" : ""*/}
+        {/*        }`}*/}
+        {/*    >*/}
+        {/*        О нас*/}
+        {/*    </Link>*/}
+        {/*</li>*/}
+
+
         <li className="navigation__item">
-            <Link
-                href="/about"
+            <a
+                href="#"
                 className={`navigation__link ${
-                    pathname == "/about" ? "menu-active" : ""
+                    isActiveParentMenu(aboutPageitems) ? "menu-active" : ""
                 }`}
             >
                 О нас
-            </Link>
+            </a>
+            <ul className="default-menu list-unstyled">
+                {aboutPageitems.map((elm, i) => (
+                    <li key={i} className="sub-menu__item">
+                        <Link
+                            href={elm.href}
+                            className={`menu-link menu-link_us-s ${
+                                isMenuActive(elm.href) ? "menu-active" : ""
+                            }`}
+                        >
+                            {elm.title}
+                        </Link>
+                    </li>
+                ))}
+            </ul>
+            {/* <!-- /.box-menu --> */}
         </li>
-
         <li className="navigation__item">
             <Link
                 href="/shop"
