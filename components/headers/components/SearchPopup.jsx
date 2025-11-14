@@ -12,10 +12,9 @@ export default function SearchPopup() {
     };
 
     useEffect(() => {
-        // Добавляем обработчик кликов вне попапа
+
         document.addEventListener("click", handleClickOutside);
 
-        // Чистим обработчик при размонтировании компонента
         return () => {
             document.removeEventListener("click", handleClickOutside);
         };
