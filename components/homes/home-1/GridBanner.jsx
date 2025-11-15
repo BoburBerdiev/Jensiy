@@ -16,7 +16,7 @@ export default function GridBanner() {
                   style={{
                     position: "absolute",
                     inset: 0,
-                    background: "rgba(4, 29, 86, 0.5)",
+                    background: "rgba(4, 29, 86, 0.7)",
                   }}
               >
               </div>
@@ -41,7 +41,7 @@ export default function GridBanner() {
                   style={{
                     position: "absolute",
                     inset: 0,
-                    background: "rgba(4, 29, 86, 0.5)",
+                    background: "rgba(4, 29, 86, 0.7)",
                   }}
               >
               </div>
@@ -65,7 +65,7 @@ export default function GridBanner() {
                   style={{
                     position: "absolute",
                     inset: 0,
-                    background: "rgba(4, 29, 86, 0.5)",
+                    background: "rgba(4, 29, 86, 0.7)",
                   }}
               >
               </div>

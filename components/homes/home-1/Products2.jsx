@@ -25,7 +25,7 @@ export default function Products2() {
   return (
     <section className="products-grid container">
       <h2 className="section-title text-uppercase text-center mb-1 mb-md-3 pb-xl-2 mb-xl-4">
-        Our Trendy <strong>Products</strong>
+        <strong>Продукты</strong>
       </h2>
 
       <ul className="nav nav-tabs mb-3 text-uppercase justify-content-center">
@@ -99,27 +99,6 @@ export default function Products2() {
                         {elm.title}
                       </Link>
                     </h6>
-                    <div className="product-card__price d-flex">
-                      <span className="money price">${elm.price}</span>
-                    </div>
-
-                    <button
-                      className={`pc__btn-wl position-absolute top-0 end-0 bg-transparent border-0 js-add-wishlist ${
-                        isAddedtoWishlist(elm.id) ? "active" : ""
-                      }`}
-                      title="Add To Wishlist"
-                      onClick={() => toggleWishlist(elm.id)}
-                    >
-                      <svg
-                        width="16"
-                        height="16"
-                        viewBox="0 0 20 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <use href="#icon_heart" />
-                      </svg>
-                    </button>
                   </div>
                 </div>
               </div>

@@ -38,16 +38,20 @@ export default function Home() {
             <Products4 />
             <div className="mb-5 pb-1 pb-xl-4"></div>
             {/*<Products5 />*/}
-            <Clients />
             {/*<div className="mb-5 pb-1 pb-xl-4"></div>*/}
 
             {/*<InstaGram />*/}
               <div className="mb-4 pb-4 mb-xl-4 mt-xl-3 pt-xl-3 pb-xl-4"></div>
               <Blogs />
-            <div className="mb-4 pb-4 pb-xl-5 mb-xl-5"></div>
+              <div className="mb-4 pb-4 pb-xl-5 mb-xl-5"></div>
+
             <div className="bg-white">
               <Features />{" "}
             </div>
+
+              <Clients />
+              <div className="mb-4 pb-4 pb-xl-5 mb-xl-5"></div>
+
           </main>
           <Footer1 />
           <LoginFormPopup />{" "}

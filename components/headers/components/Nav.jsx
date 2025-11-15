@@ -59,18 +59,6 @@ export default function Nav() {
             </Link>
         </li>
 
-        {/*<li className="navigation__item">*/}
-        {/*    <Link*/}
-        {/*        href="/about"*/}
-        {/*        className={`navigation__link ${*/}
-        {/*            pathname == "/about" ? "menu-active" : ""*/}
-        {/*        }`}*/}
-        {/*    >*/}
-        {/*        О нас*/}
-        {/*    </Link>*/}
-        {/*</li>*/}
-
-
         <li className="navigation__item">
             <a
                 href="#"

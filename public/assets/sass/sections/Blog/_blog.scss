@@ -2,7 +2,7 @@
   &-page {
     &-title {
       width: 112.5rem;
-      height: 10rem;
+      height: 5rem;
       max-width: calc(100% - 1.875rem);
       border: 2px solid $border-color;
       margin: 0 auto;
@@ -10,7 +10,7 @@
       position: relative;
       display: flex;
       align-items: center;
-      padding: 1.25rem;
+      padding: 1rem;
 
       .page-title {
         @include font-size(3.75rem);
@@ -36,7 +36,7 @@
       }
 
       @include media-breakpoint-up(sm) {
-        height: 18.5rem;
+        height: 12rem;
         padding: 0;
       }
     }
@@ -93,6 +93,7 @@
       }
 
       &-content {
+
         p {
           margin-bottom: 0.625rem;
         }

@@ -23,15 +23,17 @@ export default function Contact() {
                             </p>
                         </div>
                     ))}
+                    <div className="col-md-6">
+                        <LocationMap />
+                    </div>
                 </div>
                 <div className="contact-us__form">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-12">
                             <form
                                 className="needs-validation"
                                 onSubmit={(e) => e.preventDefault()}
                             >
-                                <h3 className="mb-5">Свяжитесь с нами</h3>
                                 <div className="form-floating   ">
                                     <input
                                         type="text"
@@ -41,6 +43,16 @@ export default function Contact() {
                                         required
                                     />
                                     <label htmlFor="contact_us_name">Имя *</label>
+                                </div>
+                                <div className="form-floating   mt-4">
+                                    <input
+                                        type="text"
+                                        className="form-control"
+                                        id="contact_us_name"
+                                        placeholder="Номер телефона"
+                                        required
+                                    />
+                                    <label htmlFor="contact_us_name">Номер телефона</label>
                                 </div>
                                 <div className="form-floating my-4">
                                     <input
@@ -61,16 +73,14 @@ export default function Contact() {
                       required
                   ></textarea>
                                 </div>
-                                <div className="my-4">
+                                <div className="my-4 d-flex justify-content-center align-items-center">
                                     <button type="submit" className="btn btn-primary">
                                         Отправить
                                     </button>
                                 </div>
                             </form>
                         </div>
-                        <div className="col-md-6">
-                            <LocationMap />
-                        </div>
+
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 "use client";
-import {products1} from "@/data/products/fashion";
+import {products51} from "@/data/products/fashion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ColorSelection from "../common/ColorSelection";
 import { Navigation } from "swiper/modules";
@@ -53,7 +53,7 @@ export default function Shop8() {
           <div className="shop-asc__seprator mx-3 bg-light d-none d-md-block order-md-0"></div>
 
           <div className="col-size align-items-center order-1 d-none d-lg-flex">
-            <span className="text-uppercase fw-medium me-2">View</span>
+            <span className="text-uppercase fw-medium me-2">Вид</span>
             {itemPerRow.map((elm, i) => (
               <button
                 key={i}
@@ -80,7 +80,7 @@ export default function Shop8() {
         className={`products-grid row row-cols-2 row-cols-md-3 row-cols-lg-${selectedColView}`}
         id="products-grid"
       >
-        {products1.map((elm, i) => (
+        {products51.map((elm, i) => (
           <div key={i} className="product-card-wrapper">
             <div className="product-card mb-3 mb-md-4 mb-xxl-5">
               <div className="pc__img-wrapper">

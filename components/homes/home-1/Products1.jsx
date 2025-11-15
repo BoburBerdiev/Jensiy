@@ -7,20 +7,21 @@ export default function Products1() {
     >
       <div className="container ">
         <div className="row ">
-          <div className="col-24">
+          <div className="col-24 text-center">
             <h2 className="section-title text-uppercase text-center mb-1 mb-md-3 pb-xl-2 mb-xl-4">
-                О нас
+                <strong>
+                    О нас
+                </strong>
             </h2>
           </div>
 
-          <div className="col-24 ">
-            <p className="fs-6 fw-medium mb-2">
+          <div className="col-24 text-center">
+            <p className="fs-6 fw-light mb-2 text-center">
               Фабрика "VINTAGE DENIM" — это место, где сочетаются высокие технологии, опытные мастера и любовь к дениму.
 
               Основанная в 2019 году, наша фабрика зарекомендовала себя как ведущий производитель джинсовой одежды, предлагая клиентам продукцию высочайшего качества.
             </p>
-            <h4 className="mb-1">Наше производство</h4>
-            <p className="fs-6 fw-medium mb-2">
+            <p className="fs-6 fw-light mb-2">
               Фабрика "VINTAGE DENIM" оснащена современным оборудованием, что позволяет нам производить джинсы, отвечающие самым строгим стандартам. Каждый этап производства — от выбора тканей до финальной обработки — находится под строгим контролем, чтобы гарантировать безупречное качество каждой пары джинсов.
 
               Мы используем только высококачественные материалы. Наши ткани проходят несколько стадий обработки, включая покраску и смягчение, что обеспечивает долговечность и комфорт наших изделий.

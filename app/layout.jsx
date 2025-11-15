@@ -33,7 +33,9 @@ export default function RootLayout({ children }) {
       });
     }
   }, []);
-  return (
+
+
+    return (
     <html lang="en">
       <head>
         <link
@@ -89,14 +91,15 @@ export default function RootLayout({ children }) {
           <QuickView />
           <NewsLetter />
           {/*<CookieContainer />*/}
-          <SizeGuide />
+          {/*<SizeGuide />*/}
           <Delivery />
           <CartDrawer />
           <CustomerLogin />
-          <ShopFilter />
+            <SiteMap/>
+          {/*<ShopFilter />*/}
           <ProductDescription />
           <ProductAdditionalInformation />
-          <ProductReviews />
+          {/*<ProductReviews />*/}
         </Context>
         <div className="page-overlay" id="pageOverlay"></div>
         <ScrollTop />

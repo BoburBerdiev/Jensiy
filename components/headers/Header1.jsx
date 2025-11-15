@@ -38,7 +38,7 @@ export default function Header1() {
     return (
         <header
             id="header"
-            className={`header header-fullwidth header-transparent-bg header_sticky ${
+            className={`header header-fullwidth header-transparent-bg header_sticky border_bottom ${
                 scrollDirection === "up" ? "header_sticky-active" : "position-absolute"
             } `}
         >
@@ -97,22 +97,7 @@ export default function Header1() {
             <div className="header-desk header-desk_type_2 d-flex align-items-center justify-content-between px-4 py-2">
                 {/* === LEFT: NAVIGATION === */}
                 <nav className="navigation d-flex align-items-center">
-                    <a
-                        className="navigation__item d-flex align-items-center"
-                        href="#"
-                        data-bs-toggle="modal"
-                        data-bs-target="#siteMap"
-                    >
-                        <svg
-                            width="30"
-                            height="11"
-                            viewBox="0 0 30 11"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <rect width="30" height="2"/>
-                            <rect y="9" width="25" height="2"/>
-                        </svg>
-                    </a>
+
 
                     <ul className="navigation__list list-unstyled d-flex mb-0 ms-3">
                         <Nav/>
@@ -126,8 +111,8 @@ export default function Header1() {
                         className=" w-full h-full "
                     >
                         <Image
-                            width={100}
-                            height={100}
+                            width={90}
+                            height={90}
                             src="/assets/images/logo-png.png"
                             alt="Vintage Denim"
                             className="logo__image d-block"
@@ -157,6 +142,23 @@ export default function Header1() {
                         <span className="cart-amount d-block position-absolute js-cart-items-count">
               <CartLength/>
             </span>
+                    </a>
+
+                    <a
+                        className="navigation__item d-flex align-items-center"
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#siteMap"
+                    >
+                        <svg
+                            width="30"
+                            height="11"
+                            viewBox="0 0 30 11"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect width="30" height="2"/>
+                            <rect y="9" width="25" height="2"/>
+                        </svg>
                     </a>
                 </div>
             </div>

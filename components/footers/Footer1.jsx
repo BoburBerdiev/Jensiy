@@ -105,7 +105,7 @@ export default function Footer2() {
           </span>
             <div className="footer-settings d-md-flex align-items-center">
               <div className='flex items-center gap-3 '>
-                <span>Разработчик Abdug'aniev Technology</span>
+                <span>Сайт создан Abdug'aniev Technology</span>
               </div>
             </div>
             {/* <!-- /.footer-settings --> */}

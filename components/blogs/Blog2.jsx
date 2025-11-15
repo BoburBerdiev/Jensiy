@@ -49,20 +49,20 @@ export default function Blog2() {
                   alt="image"
                 />
               </div>
-              <div className="blog-grid__item-detail">
+              <div className="blog-grid__item-detail h-100">
                 <div className="blog-grid__item-meta">
                   <span className="blog-grid__item-meta__date">{elm.date}</span>
                 </div>
                 <div className="blog-grid__item-title">
                   <Link href={`/blog/${elm.id}`}>{elm.title}</Link>
                 </div>
-                <div className="blog-grid__item-content">
+                <div className="blog-grid__item-content   d-flex flex-column justify-content-between align-items-start ">
                   <p>{elm.content}</p>
                   <Link
                     href={`/blog/${elm.id}`}
                     className="readmore-link"
                   >
-                    Continue Reading
+                      Продолжить чтение
                   </Link>
                 </div>
               </div>

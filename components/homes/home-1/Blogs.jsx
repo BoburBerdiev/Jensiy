@@ -41,7 +41,7 @@ export default function Blogs() {
   return (
     <section className="blog-carousel container">
       <h2 className="section-title text-uppercase fw-bold text-center mb-3 pb-xl-2 mb-xl-4">
-        Latest News
+          Новости
       </h2>
 
       <div className="position-relative">
@@ -76,7 +76,7 @@ export default function Blogs() {
                                 href={`/blog/${elm.id}`}
                                 className="readmore-link"
                             >
-                                Continue Reading
+                                Продолжить чтение
                             </Link>
                         </div>
                     </div>

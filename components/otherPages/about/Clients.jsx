@@ -43,7 +43,9 @@ export default function Clients() {
   return (
     <section className="brands-carousel container mw-930">
       <h2 className="section-title text-uppercase text-center mb-4 pb-xl-2 mb-xl-4 ">
-          Партнеры
+          <strong>
+              Партнеры
+          </strong>
       </h2>
       <div className="position-relative mt-2">
         <Swiper

@@ -28,11 +28,11 @@ export const languageOptions = [
 ];
 
 export const languageOptions2 = [
-  { value: "english", text: "English", selected: true },
-  { value: "german", text: "German" },
-  { value: "french", text: "French" },
-  { value: "swedish", text: "Swedish" },
+    { value: "english", text: "English",  },
+    { value: "uzbek", text: "O'zbek" },
+    { value: "russian", text: "Русский" ,selected: true },
 ];
+
 
 export const currencyOptions = [
   { value: "", text: "$ USD", selected: true },

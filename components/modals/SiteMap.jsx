@@ -35,9 +35,7 @@ export default function SiteMap() {
                 <div className="tab-content col-12" id="pills-tabContent">
                   <div
                     className="tab-pane fade show active"
-                    id="pills-item-1"
-                    role="tabpanel"
-                    aria-labelledby="pills-item-1-tab"
+
                   >
                     <div className="row">
                         <ul
@@ -79,29 +77,26 @@ export default function SiteMap() {
                         <div className="tab-content col-7" id="myTabContent">
                         <div
                           className="tab-pane fade show active"
-                          id="tab-item-1"
-                          role="tabpanel"
-                          aria-labelledby="tab-item-1-tab"
                         >
-                          <ul className="sub-menu list-unstyled">
-                              <li className="nav-item position-relative" role="presentation">
-                                  <a className="nav-link nav-link_rline">
-      <span className="rline-content">
+                          <ul className="sub-menu list-unstyled ">
+                              <li className="sub-menu__item position-relative mb-2" role="presentation">
+                                  <a className=" nav-link_rline">
+      <span className="">
         Ташкентская область, город Алмалык, Бустонский МФЙ, улица Бустон, дом №8<br />
         Ташкентская область
       </span>
                                   </a>
                               </li>
 
-                              <li className="nav-item position-relative" role="presentation">
-                                  <a className="nav-link nav-link_rline" href="mailto:Vintagedenimuz@gmail.com">
-                                      <span className="rline-content">Vintagedenimuz@gmail.com</span>
+                              <li className="sub-menu__item position-relative mb-2" role="presentation">
+                                  <a className=" nav-link_rline" href="mailto:Vintagedenimuz@gmail.com">
+                                      <span className="">Vintagedenimuz@gmail.com</span>
                                   </a>
                               </li>
 
-                              <li className="nav-item position-relative" role="presentation">
-                                  <a className="nav-link nav-link_rline" href="tel:+998998070100">
-                                      <span className="rline-content">+998 (99) 807-01-00</span>
+                              <li className="sub-menu__item position-relative mb-2" role="presentation">
+                                  <a className=" nav-link_rline" href="tel:+998998070100">
+                                      <span className="">+998 (99) 807-01-00</span>
                                   </a>
                               </li>
                           </ul>
@@ -112,42 +107,7 @@ export default function SiteMap() {
                     </div>
                     {/* <!-- /.row --> */}
                   </div>
-                  <div
-                    className="tab-pane fade"
-                    id="pills-item-2"
-                    role="tabpanel"
-                    aria-labelledby="pills-item-2-tab"
-                  >
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
-                    Elementum lectus a porta commodo suspendisse arcu, aliquam
-                    lectus faucibus.
-                  </div>
-                  <div
-                    className="tab-pane fade"
-                    id="pills-item-3"
-                    role="tabpanel"
-                    aria-labelledby="pills-item-3-tab"
-                  >
-                    <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                      enim ipsam voluptatem quia voluptas sit aspernatur aut
-                      odit aut fugit, sed quia consequuntur magni dolores eos
-                      qui ratione voluptatem sequi nesciunt.
-                    </p>
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                    consequatur?
-                  </div>
+
                 </div>
               </div>
               {/* <!-- /.modal-body --> */}

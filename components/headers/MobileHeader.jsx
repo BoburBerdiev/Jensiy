@@ -66,10 +66,10 @@ export default function MobileHeader() {
         <div className="logo">
           <a href="/">
             <Image
-                src="/assets/images/vintage.jpg"
+                src="/assets/images/logo-png.png"
                 alt="Vintage Denim"
-                width={70}
-                height={70}
+                width={60}
+                height={60}
               className="logo__image d-block"
             />
           </a>
