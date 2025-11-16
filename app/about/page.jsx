@@ -24,7 +24,7 @@ export default function AboutPage() {
           <Services />
           <Clients />
       </main>
-      <div className="mb-5 pb-xl-5"></div>
+        <div className="mb-5 pb-xl-5"></div>
       <Footer1 />
     </>
   );

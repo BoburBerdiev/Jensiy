@@ -3,8 +3,7 @@ import {
     aboutPageitems
 } from "@/data/menu";
 import Link from "next/link";
-import React, { useEffect } from "react";
-import Image from "next/image";
+import  { useEffect } from "react";
 import { usePathname } from "next/navigation";
 
 export default function Nav() {

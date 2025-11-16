@@ -5,8 +5,7 @@ import Nav from "./components/Nav";
 import {openCart} from "@/utlis/openCart";
 import CartLength from "./components/CartLength";
 import Image from "next/image";
-import User from "./components/User";
-import {currencyOptions, languageOptions2} from "@/data/footer";
+import {languageOptions2} from "@/data/footer";
 import {socialLinks} from "@/data/socials";
 import SearchPopup from "./components/SearchPopup";
 

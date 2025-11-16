@@ -17,10 +17,9 @@ export const additionalShopPageitems = [
 ];
 
 export const aboutPageitems = [
-    { id: 1, href: "/about/2", title: "Collection Grid" },
-    { id: 1, href: "/about/3", title: "Collection Grid" },
-    { id: 1, href: "/about/4", title: "Collection Grid" },
-    { id: 1, href: "/about/5", title: "Collection Grid" },
+    { id: 1, href: "/about/company", title: "Наша компания" },
+    { id: 1, href: "/about/technologies", title: "Технологии производства" },
+    { id: 1, href: "/about/collection", title: "Наша коллекция" },
 
 ]
 
