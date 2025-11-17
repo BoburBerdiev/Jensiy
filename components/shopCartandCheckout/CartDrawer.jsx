@@ -110,16 +110,18 @@ export default function CartDrawer() {
 
                     {cartProducts.length ? (
                         <>
-                            <Link href="/shop_cart" className="btn btn-light mt-3 d-block">
-                                Перейти в корзину
-                            </Link>
+                            {/*<Link href="/shop_cart" className="btn btn-light mt-3 d-block">*/}
+                            {/*    Перейти в корзину*/}
+                            {/*</Link>*/}
 
-                            <Link
-                                href="/shop_checkout"
+                            <a
+                                href="#"
+                                data-bs-toggle="modal"
+                                data-bs-target="#newsletterPopup"
                                 className="btn btn-primary mt-3 d-block"
                             >
                                 Оформить заказ
-                            </Link>
+                            </a>
                         </>
                     ) : (
                         <Link href="/shop-1" className="btn btn-light mt-3 d-block">

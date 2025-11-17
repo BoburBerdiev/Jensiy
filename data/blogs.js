@@ -1,14 +1,14 @@
 export const blogs1 = [
     {
         id: 77,
-        imgSrc: "/assets/images/gallereya/gal1.webp",
-        date: "05 октября 2024 г.",
+        imgSrc: "/assets/images/collection/news1.jpg",
+        date: "2025.11.01",
         title: "Эксклюзивные ткани и обработка",
     },
     {
         id: 78,
-        imgSrc: "/assets/images/gallereya/gal2.webp",
-        date: "5 апреля 2025г.",
+        imgSrc: "/assets/images/collection/news2.jpg",
+        date: "2025.10.05",
         title: "Специальное предложение",
     }
 

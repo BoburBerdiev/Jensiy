@@ -44,7 +44,7 @@ export default function NewsLetter() {
                     loading="lazy"
                     width={450}
                     height={550}
-                    src="/assets/images/vintage.jpg"
+                    src="/assets/images/collection/modal.jpg"
                     alt="Vintage Denim"
                     className="h-100 w-100 object-fit-cover d-block"
                 />

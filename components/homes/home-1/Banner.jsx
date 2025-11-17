@@ -7,7 +7,7 @@ export default function Banner() {
       <div
         className="background-img"
         style={{
-          backgroundImage: "url(/assets/images/img/jenas-banner-min.png)",
+          backgroundImage: "url(/assets/images/collection/banner1.jpg)",
           backgroundPosition: "20% center",
             backgroundRepeat:"no-repeat",
             backgroundAttachment: "fixed",
@@ -20,7 +20,6 @@ export default function Banner() {
           <div className={"d-flex gap-3 justify-content-center align-items-center"}>
               <a
                   href="/assets/images/img/pdf.pdf"
-                  download
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-outline-primary border-0 fs-base text-uppercase fw-medium btn-55 d-inline-flex align-items-center"

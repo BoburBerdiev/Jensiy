@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useContextElement } from "@/context/Context";
-const filterCategories = ["Все","Мужчина", "Женщина", "Ребенок"];
+const filterCategories = ["Все","Мужчина", "Женщина", "Детская"];
 import { products51 } from "@/data/products/fashion";
 
 import  { useEffect, useState } from "react";

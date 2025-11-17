@@ -1,19 +1,19 @@
 "use client";
 import Link from "next/link";
 import Pagination1 from "../common/Pagination1";
-import { blogs13, categories } from "@/data/blogs";
+import { blogs1, categories } from "@/data/blogs";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Blog2() {
   const [activeCategory, setActiveCategory] = useState(categories[0]);
-  const [filteredBlogs, setFilteredBlogs] = useState(blogs13);
+  const [filteredBlogs, setFilteredBlogs] = useState(blogs1);
   useEffect(() => {
     if (activeCategory == "ALL") {
-      setFilteredBlogs(blogs13);
+      setFilteredBlogs(blogs1);
     } else {
       setFilteredBlogs([
-        ...blogs13.filter((elm) => elm.category.includes(activeCategory)),
+        ...blogs1.filter((elm) => elm.category.includes(activeCategory)),
       ]);
     }
   }, [activeCategory]);

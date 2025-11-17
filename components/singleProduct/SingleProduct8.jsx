@@ -2,14 +2,9 @@
 import React, { useState } from "react";
 import Slider4 from "./sliders/Slider4";
 import BreadCumb from "./BreadCumb";
-import Star from "../common/Star";
 import Size from "./Size";
 import Colors from "./Colors";
-import Description from "./Description";
 import AdditionalInfo from "./AdditionalInfo";
-import Reviews from "./Reviews";
-import Link from "next/link";
-import ShareComponent from "../common/ShareComponent";
 import { useContextElement } from "@/context/Context";
 
 export default function SingleProduct8({ product }) {

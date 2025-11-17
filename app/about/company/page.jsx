@@ -23,17 +23,17 @@ export default function AboutPage() {
                         <h2 className="page-title text-center">Наша компания</h2>
                     </div>
                     <div className="about-us__content ">
-                        <div className=' hero-section mb-5 ratio ratio-21x9'>
-                            <video className="w-100 h-100"
-                                   poster={`/assets/videos/videos.mov`} playsInline autoPlay loop muted>
-                                <source
-                                    className=""
-                                    src={`/assets/videos/videos.mov`}
-                                    type="video/mov"
-                                />
-                                <source className="" src={`/assets/videos/videos.mov`} type="video/ogv"/>
-                                <source className="" type="video/webm" src={`/assets/videos/videos.mov`}/>
-                            </video>
+                        <div className=' hero-section mb-5 ratio ratio-21x9' style={{ backgroundImage: "url(/assets/images/collection/bannerabout.JPG)" , backgroundSize: "cover" , backgroundPosition: "center center"  }}>
+                            {/*<video className="w-100 h-100"*/}
+                            {/*       poster={`/assets/videos/videos.mov`} playsInline autoPlay loop muted>*/}
+                            {/*    <source*/}
+                            {/*        className=""*/}
+                            {/*        src={`/assets/videos/videos.mov`}*/}
+                            {/*        type="video/mov"*/}
+                            {/*    />*/}
+                            {/*    <source className="" src={`/assets/videos/videos.mov`} type="video/ogv"/>*/}
+                            {/*    <source className="" type="video/webm" src={`/assets/videos/videos.mov`}/>*/}
+                            {/*</video>*/}
                         </div>
                         <div className="mw-930 fs-5 fw-light">
                             <p className="mb-4">

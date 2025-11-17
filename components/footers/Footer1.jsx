@@ -11,7 +11,7 @@ import {
 
 export default function Footer2() {
   return (
-      <footer className="footer footer_type_2 dark"  style={{
+      <footer className="footer footer_type_2 dark mb-4 mb-md-0"  style={{
           backgroundImage: "url(/assets/images/img/footer.png)",
           backgroundPosition: "20% center",
           backgroundRepeat:"no-repeat",

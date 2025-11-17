@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useContextElement } from "@/context/Context";
 const itemPerRow = [2, 3, 4];
 import Image from "next/image";
-const filterCategories = ["Все","Мужчина", "Женщина", "Ребенок"];
+const filterCategories = ["Все","Мужчина", "Женщина", "Детская"];
 
 
 
@@ -95,7 +95,10 @@ export default function Shop8() {
                 >
                   {[elm.imgSrc, elm.imgSrc2].map((elm2, i) => (
                     <SwiperSlide key={i} className="swiper-slide">
-                      <Link href={`/shop/${elm.id}`}>
+                      <a
+                          href="#"
+                          data-bs-toggle="modal"
+                          data-bs-target="#newsletterPopup">
                         <Image
                           loading="lazy"
                           src={elm2}
@@ -104,7 +107,7 @@ export default function Shop8() {
                           alt="Cropped Faux leather Jacket"
                           className="pc__img"
                         />
-                      </Link>
+                      </a>
                     </SwiperSlide>
                   ))}
 
@@ -153,7 +156,10 @@ export default function Shop8() {
               <div className="pc__info position-relative">
                 <p className="pc__category">{elm.category}</p>
                 <h6 className="pc__title">
-                  <Link href={`/shop/${elm.id}`}>{elm.title}</Link>
+                  <a
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#newsletterPopup" >{elm.title}</a>
                 </h6>
 
 
