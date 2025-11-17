@@ -104,15 +104,7 @@ export default function Products2() {
               </div>
             ))}
           </div>
-          {/* <!-- /.row --> */}
-          <div className="text-center mt-2">
-            <Link
-              className="btn-link btn-link_lg default-underline text-uppercase fw-medium"
-              href="/shop-1"
-            >
-              Просмотреть все
-            </Link>
-          </div>
+
         </div>
 
         {/* <!-- /.tab-pane fade show--> */}
