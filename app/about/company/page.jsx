@@ -87,8 +87,8 @@ export default function AboutPage() {
                         </div>
                     </div>
                     <Services />
-                    <Clients />
-                    <div className="mb-5 pb-xl-5"></div>
+                    {/*<Clients />*/}
+                    {/*<div className="mb-5 pb-xl-5"></div>*/}
 
                 </section>
             </main>

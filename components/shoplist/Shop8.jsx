@@ -133,19 +133,21 @@ export default function Shop8() {
                     </svg>
                   </span>
                 </Swiper>
-                <button
-                  className="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside"
-                  onClick={() => addProductToCart(elm.id)}
-                  title={
-                    isAddedToCartProducts(elm.id)
-                      ? "Already Added"
-                      : "Add to Cart"
-                  }
-                >
-                  {isAddedToCartProducts(elm.id)
-                    ? "Already Added"
-                    : "Add To Cart"}
-                </button>
+
+                  <button
+                      className="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside"
+                      onClick={() => addProductToCart(elm.id)}
+                      title={
+                          isAddedToCartProducts(elm.id)
+                              ? "Уже добавлено"
+                              : "Добавить в корзину"
+                      }
+                  >
+                      {isAddedToCartProducts(elm.id)
+                          ? "Уже добавлено"
+                          : "Добавить в корзину"}
+                  </button>
+
               </div>
 
               <div className="pc__info position-relative">
