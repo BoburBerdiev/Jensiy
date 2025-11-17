@@ -5,20 +5,20 @@ import React, { useEffect, useRef } from "react";
 
 export default function NewsLetter() {
   const modalElement = useRef();
-  useEffect(() => {
-    const bootstrap = require("bootstrap"); // dynamically import bootstrap
-    var myModal = new bootstrap.Modal(
-      document.getElementById("newsletterPopup"),
-      {
-        keyboard: false,
-      }
-    );
-
-    myModal.show();
-    modalElement.current.addEventListener("hidden.bs.modal", () => {
-      myModal.hide();
-    });
-  }, []);
+  // useEffect(() => {
+  //   const bootstrap = require("bootstrap"); // dynamically import bootstrap
+  //   var myModal = new bootstrap.Modal(
+  //     document.getElementById("newsletterPopup"),
+  //     {
+  //       keyboard: false,
+  //     }
+  //   );
+  //
+  //   myModal.show();
+  //   modalElement.current.addEventListener("hidden.bs.modal", () => {
+  //     myModal.hide();
+  //   });
+  // }, []);
 
   return (
     <div
