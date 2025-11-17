@@ -155,27 +155,7 @@ export default function Shop8() {
                 <h6 className="pc__title">
                   <Link href={`/shop/${elm.id}`}>{elm.title}</Link>
                 </h6>
-                <div className="product-card__price d-flex">
-                  {elm.priceOld ? (
-                    <>
-                      {" "}
-                      <span className="money price price-old">
-                        ${elm.priceOld}
-                      </span>
-                      <span className="money price price-sale">
-                        ${elm.price}
-                      </span>
-                    </>
-                  ) : (
-                    <span className="money price">${elm.price}</span>
-                  )}
-                </div>
-                {elm.colors && (
-                  <div className="d-flex align-items-center mt-1">
-                    {" "}
-                    <ColorSelection />{" "}
-                  </div>
-                )}
+
 
                 {/*<button*/}
                 {/*  className={`pc__btn-wl position-absolute top-0 end-0 bg-transparent border-0 js-add-wishlist ${*/}
