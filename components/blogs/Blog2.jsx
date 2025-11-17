@@ -23,7 +23,7 @@ export default function Blog2() {
         <div className="title-bg">
           <Image
             loading="lazy"
-            src="/assets/images/blog_title_bg.jpg"
+            src="/assets/images/img/banner.jpg"
             width="1780"
             height="320"
             alt="image"

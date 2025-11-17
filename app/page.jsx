@@ -49,8 +49,8 @@ export default function Home() {
               <Features />{" "}
             </div>
 
-              <Clients />
-              <div className="mb-4 pb-4 pb-xl-5 mb-xl-5"></div>
+              {/*<Clients />*/}
+              {/*<div className="mb-4 pb-4 pb-xl-5 mb-xl-5"></div>*/}
 
           </main>
           <Footer1 />

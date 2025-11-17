@@ -28,8 +28,8 @@ export const languageOptions = [
 ];
 
 export const languageOptions2 = [
-    { value: "english", text: "English",  },
-    { value: "uzbek", text: "O'zbek" },
+    // { value: "english", text: "English",  },
+    // { value: "uzbek", text: "O'zbek" },
     { value: "russian", text: "Русский" ,selected: true },
 ];
 

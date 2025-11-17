@@ -92,9 +92,7 @@ export default function Header1() {
                 </div>
             </div>
 
-            {/* === HEADER MAIN === */}
             <div className="header-desk header-desk_type_2 d-flex align-items-center justify-content-between px-4 py-2">
-                {/* === LEFT: NAVIGATION === */}
                 <nav className="navigation d-flex align-items-center">
 
 
@@ -103,27 +101,23 @@ export default function Header1() {
                     </ul>
                 </nav>
 
-                {/* === CENTER: LOGO === */}
                 <div className="logo text-center position-relative">
                     <Link
                         href="/"
                         className=" w-full h-full "
                     >
-                        <Image
-                            width={90}
-                            height={90}
-                            src="/assets/images/logo-png.png"
+                        <img
+                            style={{width:'90px'}}
+                            src="/assets/images/img/logo.jpg"
                             alt="Vintage Denim"
                             className="logo__image d-block"
                         />
                     </Link>
                 </div>
 
-                {/* === RIGHT: TOOLS (search, user, wishlist, cart) === */}
                 <div className="header-tools d-flex align-items-center justify-content-end gap-3">
                     <SearchPopup />
 
-                    {/* Cart */}
                     <a
                         onClick={() => openCart()}
                         className="header-tools__item header-tools__cart js-open-aside position-relative"

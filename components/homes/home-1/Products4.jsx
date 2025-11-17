@@ -12,7 +12,7 @@ export default function Products4() {
             <div className="grid-banner__item grid-banner__item_rect position-relative mb-3">
                 <div
                     className="background-img"
-                    style={{ backgroundImage: "url(/assets/images/men.jpg)" }}
+                    style={{ backgroundImage: "url(/assets/images/img/men-min.jpg)" }}
                 >
                     <div
                         style={{
@@ -36,7 +36,7 @@ export default function Products4() {
               <div className="grid-banner__item grid-banner__item_rect position-relative mb-3">
                   <div
                       className="background-img"
-                      style={{ backgroundImage: "url(/assets/images/men.jpg)" }}
+                      style={{ backgroundImage: "url(/assets/images/img/girls-min.jpg)" }}
                   >
                       <div
                           style={{
@@ -62,7 +62,7 @@ export default function Products4() {
           <div className="grid-banner__item grid-banner__item_rect position-relative mb-3">
             <div
               className="background-img"
-              style={{ backgroundImage: "url(/assets/images/women.jpg)" }}
+              style={{ backgroundImage: "url(/assets/images/img/kids-min.jpg)" }}
             >
                 <div
                     style={{
