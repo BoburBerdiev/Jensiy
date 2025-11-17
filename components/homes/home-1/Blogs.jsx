@@ -67,7 +67,7 @@ export default function Blogs() {
                         <div className="blog-grid__item-meta">
                             <span className="blog-grid__item-meta__date">{elm.date}</span>
                         </div>
-                        <div className="blog-grid__item-title">
+                        <div className="blog-grid__item-title text-truncate">
                             <Link href={`/blog/${elm.id}`}>{elm.title}</Link>
                         </div>
                         <div className="blog-grid__item-content">

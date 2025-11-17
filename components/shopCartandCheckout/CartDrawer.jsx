@@ -85,38 +85,6 @@ export default function CartDrawer() {
                                             Размер: L
                                         </p>
 
-                                        <div className="d-flex align-items-center justify-content-between mt-1">
-                                            <div className="qty-control position-relative">
-                                                <input
-                                                    type="number"
-                                                    name="quantity"
-                                                    onChange={(e) =>
-                                                        setQuantity(elm.id, e.target.value / 1)
-                                                    }
-                                                    value={elm.quantity}
-                                                    min="1"
-                                                    className="qty-control__number border-0 text-center"
-                                                />
-
-                                                <div
-                                                    onClick={() => setQuantity(elm.id, elm.quantity - 1)}
-                                                    className="qty-control__reduce text-start"
-                                                >
-                                                    -
-                                                </div>
-
-                                                <div
-                                                    onClick={() => setQuantity(elm.id, elm.quantity + 1)}
-                                                    className="qty-control__increase text-end"
-                                                >
-                                                    +
-                                                </div>
-                                            </div>
-
-                                            <span className="cart-drawer-item__price money price">
-                        ${elm.price * elm.quantity}
-                      </span>
-                                        </div>
                                     </div>
 
                                     <button
@@ -138,10 +106,7 @@ export default function CartDrawer() {
                 <div className="cart-drawer-actions position-absolute start-0 bottom-0 w-100">
                     <hr className="cart-drawer-divider" />
 
-                    <div className="d-flex justify-content-between">
-                        <h6 className="fs-base fw-medium">ИТОГО:</h6>
-                        <span className="cart-subtotal fw-medium">${totalPrice}</span>
-                    </div>
+
 
                     {cartProducts.length ? (
                         <>

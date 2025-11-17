@@ -53,10 +53,10 @@ export default function Blog2() {
                 <div className="blog-grid__item-meta">
                   <span className="blog-grid__item-meta__date">{elm.date}</span>
                 </div>
-                <div className="blog-grid__item-title">
+                <div className="blog-grid__item-title text-truncate">
                   <Link href={`/blog/${elm.id}`}>{elm.title}</Link>
                 </div>
-                <div className="blog-grid__item-content   d-flex flex-column justify-content-between align-items-start ">
+                <div className="blog-grid__item-content text-truncate  d-flex flex-column justify-content-between align-items-start ">
                   <p>{elm.content}</p>
                   <Link
                     href={`/blog/${elm.id}`}

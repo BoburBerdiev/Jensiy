@@ -1,28 +1,17 @@
 export const blogs1 = [
-  {
-    id: 1,
-    imgSrc: "/assets/images/gallereya/gal1.webp",
-    date: "April 05, 2023",
-    title: "Woman with good shoes is never be ugly place",
-  },
-  {
-    id: 2,
-    imgSrc: "/assets/images/gallereya/gal4.webp",
-    date: "April 05, 2023",
-    title: "What Freud Can Teach Us About Furniture",
-  },
-  {
-    id: 3,
-    imgSrc: "/assets/images/gallereya/gal5.webp",
-    date: "April 05, 2023",
-    title: "Habitant morbi tristique senectus",
-  },
-  {
-    id: 4,
-    imgSrc: "/assets/images/gallereya/gal3.webp",
-    date: "April 05, 2023",
-    title: "What Freud Can Teach Us About Furniture",
-  },
+    {
+        id: 77,
+        imgSrc: "/assets/images/gallereya/gal1.webp",
+        date: "05 октября 2024 г.",
+        title: "Эксклюзивные ткани и обработка",
+    },
+    {
+        id: 78,
+        imgSrc: "/assets/images/gallereya/gal2.webp",
+        date: "5 апреля 2025г.",
+        title: "Специальное предложение",
+    }
+
 ];
 
 export const blogs2 = [
@@ -646,63 +635,20 @@ export const blogs13 = [
   {
     id: 77,
     imgSrc: "/assets/images/gallereya/gal1.webp",
-    author: "By Admin",
-    date: "April 05, 2023",
-    title: "Woman with good shoes is never be ugly place",
+    date: "05 октября 2024 г.",
+    title: "Эксклюзивные ткани и обработка",
     content:
-      "Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.",
-    category: ["STYLE", "BEAUTY"],
+    "Каждая новая модель производится из высококачественного денима, с экологичной окраской и продуманной посадкой. В этом сезоне мы добавили новые оттенки и текстуры, чтобы каждый мог найти свой идеальный стиль."
   },
   {
     id: 78,
     imgSrc: "/assets/images/gallereya/gal2.webp",
-    author: "By Admin",
-    date: "April 05, 2023",
-    title: "Heaven upon heaven moveth every have.",
+    date: "5 апреля 2025г.",
+    title: "Специальное предложение",
     content:
-      "Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.",
-    category: ["FASHION", "TRENDS"],
-  },
-  {
-    id: 79,
-    imgSrc: "/assets/images/gallereya/gal3.webp",
-    author: "By Admin",
-    date: "April 05, 2023",
-    title: "Tree doesn't good void, waters without created",
-    content:
-      "Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.",
-    category: ["COMPANY", "BEAUTY"],
-  },
-  {
-    id: 80,
-    imgSrc: "/assets/images/gallereya/gal4.webp",
-    author: "By Admin",
-    date: "April 05, 2023",
-    title: "Given Set was without from god divide rule Hath",
-    content:
-      "Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.",
-    category: ["FASHION", "TRENDS"],
-  },
-  {
-    id: 81,
-    imgSrc: "/assets/images/gallereya/gal5.webp",
-    author: "By Admin",
-    date: "April 05, 2023",
-    title: "Tree earth fowl given moveth deep lesser After",
-    content:
-      "Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.",
-    category: ["STYLE", "TRENDS"],
-  },
-  {
-    id: 82,
-    imgSrc: "/assets/images/gallereya/gal6.webp",
-    author: "By Admin",
-    date: "April 05, 2023",
-    title: "Us yielding Fish sea night night the said him two",
-    content:
-      "Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.",
-    category: ["COMPANY", "BEAUTY"],
-  },
+    "Только в этом месяце при покупке новых моделей — скидка 10% на первый заказ онлайн!Успейте выбрать свою пару джинсов и открыть сезон с VINTAGE DENIM.",
+  }
+
 ];
 
 export const blogs14 = [

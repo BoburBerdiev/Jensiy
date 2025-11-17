@@ -11,7 +11,13 @@ import {
 
 export default function Footer2() {
   return (
-      <footer className="footer footer_type_2 dark">
+      <footer className="footer footer_type_2 dark"  style={{
+          backgroundImage: "url(/assets/images/img/footer.png)",
+          backgroundPosition: "20% center",
+          backgroundRepeat:"no-repeat",
+          backgroundAttachment: "fixed",
+
+      }}>
 
 
         <div className="footer-middle container">
@@ -105,7 +111,7 @@ export default function Footer2() {
           </span>
             <div className="footer-settings d-md-flex align-items-center">
               <div className='flex items-center gap-3 '>
-                <span>Сайт создан Abdug'aniev Technology</span>
+                <span>Сайт создан <img style={{width:30 , height:30 , marginLeft:15}} src={'/assets/images/img/logo.webp'} /></span>
               </div>
             </div>
             {/* <!-- /.footer-settings --> */}

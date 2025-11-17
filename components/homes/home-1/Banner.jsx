@@ -19,8 +19,10 @@ export default function Banner() {
         <p className="text-white mb-4">Следите за нашими новыми коллекциями вместе</p>
           <div className={"d-flex gap-3 justify-content-center align-items-center"}>
               <a
-                  href="/myfile.pdf"
+                  href="/assets/images/img/pdf.pdf"
                   download
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-outline-primary border-0 fs-base text-uppercase fw-medium btn-55 d-inline-flex align-items-center"
               >
                   <span className="text_dash_half">Скачать</span>

@@ -7,16 +7,14 @@ export default function SiteMap() {
     <div className="modal fade" id="siteMap" tabIndex="-1">
       <div className="modal-dialog modal-fullscreen">
         <div className="sitemap d-flex">
-          <div className="w-50 d-none d-lg-block">
-            <Image
-              width={960}
-              height={950}
-              style={{ height: "fit-content" }}
-              loading="lazy"
-              src="/assets/images/nav-bg.jpg"
-              alt="Site map"
-              className="sitemap__bg"
-            />
+          <div className="w-50 d-none d-lg-block"
+               style={{
+                   backgroundImage: "url(/assets/images/img/jenas-banner-min.png)",
+                   backgroundPosition: "20% center",
+
+               }}
+          >
+
           </div>
           {/* <!-- /.sitemap__bg w-50 d-none d-lg-block --> */}
           <div className="sitemap__links w-50 flex-grow-1">
