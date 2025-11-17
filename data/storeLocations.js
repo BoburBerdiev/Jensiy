@@ -6,7 +6,7 @@ export const storesLocations = [
     country: "Ташкентская область",
     phone: "+998 (99) 807-01-00",
     hours: "10 am - 10 pm EST, 7 days a week",
-    emailAddress: "Vintagedenimuz@gmail.com",
+    emailAddress: "info@vintagedenim.uz",
     lat: 51.5074,
     lng: -0.1278,
   },

@@ -31,6 +31,9 @@ export default function Footer2() {
                       className="logo__image"
                   />
                 </Link>
+                  <p className="menu-link menu-link_us-s">
+                      Фабрика VINTAGE DENIM — это качество.
+                  </p>
               </div>
               {/* <!-- /.logo --> */}
 
@@ -58,7 +61,7 @@ export default function Footer2() {
                       Ташкентская область, город Алмалык, Бустонский МФЮ, улица Бустон, дом №8
                   </p>
                   <p className="m-0">
-                      <strong className="fw-medium">Vintagedenimuz@gmail.com</strong>
+                      <strong className="fw-medium">info@vintagedenim.uz</strong>
                   </p>
                   <p>
                       <strong className="fw-medium">+998 (99) 807-01-00</strong>
@@ -110,9 +113,9 @@ export default function Footer2() {
             ©{new Date().getFullYear()} Vintage Denim
           </span>
             <div className="footer-settings d-md-flex align-items-center">
-              <div className='flex items-center gap-3 '>
+              <a href={'https://abduganiev.uz/'} target={"_blank"} className='flex items-center gap-3 text-white'>
                 <span>Сайт создан <img style={{width:30 , height:30 , marginLeft:15}} src={'/assets/images/img/logo.webp'} /></span>
-              </div>
+              </a>
             </div>
             {/* <!-- /.footer-settings --> */}
           </div>

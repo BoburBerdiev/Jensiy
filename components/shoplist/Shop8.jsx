@@ -205,14 +205,7 @@ export default function Shop8() {
       </div>
       {/* <!-- /.products-grid row --> */}
 
-      <div className="text-center">
-        <a
-          className="btn btn-primary text-uppercase fw-medium fs-base"
-          href="#"
-        >
-            Показать больше
-        </a>
-      </div>
+
     </section>
   );
 }

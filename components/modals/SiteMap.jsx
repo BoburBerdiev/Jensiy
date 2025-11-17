@@ -87,8 +87,8 @@ export default function SiteMap() {
                               </li>
 
                               <li className="sub-menu__item position-relative mb-2" role="presentation">
-                                  <a className=" nav-link_rline" href="mailto:Vintagedenimuz@gmail.com">
-                                      <span className="">Vintagedenimuz@gmail.com</span>
+                                  <a className=" nav-link_rline" href="mailto:info@vintagedenim.uz">
+                                      <span className="">info@vintagedenim.uz</span>
                                   </a>
                               </li>
 

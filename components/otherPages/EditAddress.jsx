@@ -18,7 +18,7 @@ export default function EditAddress() {
               <p>1418 River Drive, Suite 35 Cottonhall, CA 9622</p>
               <p>United States</p>
               <br />
-              <p>Vintagedenimuz@gmail.com</p>
+              <p>info@vintagedenim.uz</p>
               <p>+998 (99) 807-01-00</p>
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function EditAddress() {
               <p>1418 River Drive, Suite 35 Cottonhall, CA 9622</p>
               <p>United States</p>
               <br />
-              <p>Vintagedenimuz@gmail.com</p>
+              <p>info@vintagedenim.uz</p>
               <p>+998 (99) 807-01-00</p>
             </div>
           </div>
