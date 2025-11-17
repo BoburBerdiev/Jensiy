@@ -98,6 +98,31 @@ export default function CollectionPage() {
         },
     ]
 
+    const kids = [
+
+        {
+            title: "Papperbag",
+            description:
+                "Советы по стилизации: Комбинирование с верхней одеждой: Джинсы 'Paperbag' прекрасно сочетаются с облегающими топами или футболками, которые можно заправить внутрь. чтобы подчеркнуть высокую талию и рюши.Акцент на аксессуары: Используйте яркие ремни или пояса, чтобы добавить контраст и акцентировать внимание на талии. Это также поможет удерживать джинсы на месте, обеспечивая комфорт. Обувь: Выбирайте обувь, которая будет гармонировать с расклешенным кроем джинсов Например, ботинки на низком ходу или кеды подойдут для повседневного образа, а балетки или сандалии добавят элегантыости! Сезонные акценты: В теплое время года дополните образ легкими блузками и топами, а зимой - теплыми свитерами и водолазками.",
+            image: "/assets/images/collection/wbaggi.png",
+        },
+
+        {
+            title: "Regular fit",
+            description:
+            "Сочетание с верхней одеждой: Джинсы 'Regular Fit' отлично смотрятся с футболками, свитшотами или рубашками. Вы можете выбрать яркий тол, чтобы добавить образу индивидуальности, или остановиться на классическом белом варианте для более традиционного вида.Обувь: Эти джинсы хорошо сочетаются как с кроссовками для активных игр, так и с более элегантной обувью, например, с мокасинами или ботинками, если нужен более официальный стиль.Аксессуары: Ремни и шапки могут стать отличным дополнением к джинсам 'Regular Fit'.Выбирайте аксессуары в тон одежде или наоборот, контрастные, чтобы добавить образу выразительности.",
+            image: "/assets/images/collection/wstaraigh.png",
+        },
+        {
+            title: "Low rise",
+            description:
+                "Советы по стилизации: для кэжуал образа: Сочетайте с простыми футболками или топами для создания расслабленного и удобного стиля. Для более смелого образа: носите с короткими топами или кроп-топами, чтобы добавить игривости и молодежного дух",
+            image: "/assets/images/collection/wlow.png",
+        },
+    ]
+
+
+
     return (
         <>
             <Header1 />
@@ -119,36 +144,40 @@ export default function CollectionPage() {
                     </div>
                 </section>
                 <section className="grid-banner container mb-3">
-                    <h2 className="section-title text-uppercase text-center mb-1 mb-md-3 pb-xl-2 mb-xl-4">
-                       Мужская коллекция
-                    </h2>
-                    <div className="row">
-                        {mens.map((item, index) => (
-                            <CollectionCard
-                                key={index}
-                                title={item.title}
-                                description={item.description}
-                                image={item.image}
-                            />
-                        ))}
+                    <div className="mw-930 fs-5 fw-light">
+                        <h4 className="mb-2 mt-5">Мужская коллекция</h4>
+
+
+                        <ul className="mb-4 ps-4">
+                            {mens.map((item, index) => (
+                                <li key={index} className="mb-3">
+                                    <strong>{item.title}:</strong> {item.description}
+                                </li>
+                            ))}
+                        </ul>
+                        <h4 className="mb-2 mt-5">Женская коллекция</h4>
+                        <ul className="mb-4 ps-4">
+                            {women.map((item, index) => (
+                                <li key={index} className="mb-3">
+                                    <strong>{item.title}:</strong> {item.description}
+                                </li>
+                            ))}
+                        </ul>
+                        <h4 className="mb-2 mt-5">Детская коллекция</h4>
+                        <ul className="mb-4 ps-4">
+                            {kids.map((item, index) => (
+                                <li key={index} className="mb-3">
+                                    <strong>{item.title}:</strong> {item.description}
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 </section>
-                <section className="grid-banner container mb-3">
-                    <h2 className="section-title text-uppercase text-center mb-1 mb-md-3 pb-xl-2 mb-xl-4">
-                        Женская коллекция
-                    </h2>
-                    <div className="row">
-                        {women.map((item, index) => (
-                            <CollectionCard
-                                key={index}
-                                title={item.title}
-                                description={item.description}
-                                image={item.image}
-                            />
-                        ))}
-                    </div>
-                </section>
+
             </main>
+
+            <div className="mb-5 pb-xl-5"></div>
+
             <Footer1 />
         </>
     );

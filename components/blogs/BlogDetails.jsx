@@ -23,23 +23,31 @@ export default function BlogDetails({ blog }) {
             alt="image"
           />
         </p>
-        <div className="mw-930">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sapien
-            dignissim a elementum. Sociis metus, hendrerit mauris id in. Quis
-            sit sit ultrices tincidunt euismod luctus diam. Turpis sodales orci
-            etiam phasellus lacus id leo. Amet turpis nunc, nulla massa est
-            viverra interdum. Praesent auctor nulla morbi non posuere mattis.
-            Arcu eu id maecenas cras. Eget fames tincidunt leo, sed vitae,
-            pretium interdum. Non massa, imperdiet nunc sit sapien. Tempor
-            lectus ornare quis mi vel. Nibh euismod donec elit posuere lobortis
-            consequat faucibus aliquam metus. Ornare consequat, vulputate sit
-            maecenas mauris urna sed fringilla. Urna fermentum iaculis pharetra,
-            maecenas dui nullam nullam rhoncus. Facilisis quis vulputate sem
-            gravida lacus, justo placerat.
-          </p>
+          <div className="mw-930 fs-5 fw-light">
+              <h4 className="mb-2">Эксклюзивные ткани и обработка</h4>
+              <p className="mb-4">
+                  Эксклюзивные ткани — это высококачественные текстильные материалы, созданные с использованием редкого сырья, авторских техник плетения и современных технологических процессов. Сочетание традиционных ремесленных методов и инновационных производственных подходов придаёт этим материалам уникальные эстетические и эксплуатационные свойства.
+              </p>
 
-        </div>
+              <p className="mb-3">
+                  Процесс обработки эксклюзивных тканей включает комплекс специализированных процедур, направленных на улучшение их фактуры, долговечности и устойчивости к внешним воздействиям. Ключевыми этапами являются:
+              </p>
+              <ul className="mb-4 ps-4">
+                  <li>Предварительное кондиционирование</li>
+                  <li>Деликатная очистка</li>
+                  <li>Стабилизация структуры волокон</li>
+                  <li>Нанесение защитных или декоративных покрытий</li>
+              </ul>
+
+              <p className="mb-4">
+                  Каждая операция требует высокой точности, глубоких знаний материаловедения и строгого соблюдения технологических стандартов.
+              </p>
+
+              <p className="mb-4">
+                  Благодаря профессиональной обработке ткани сохраняют натуральный блеск, насыщенность цвета и структурную целостность, что делает их идеальными для создания изделий премиального уровня. Использование эксклюзивных материалов в модной индустрии позволяет формировать уникальный визуальный стиль, подчёркивать индивидуальность и обеспечивать высокое качество готовой продукции.
+              </p>
+          </div>
+
       </div>
 
     </section>

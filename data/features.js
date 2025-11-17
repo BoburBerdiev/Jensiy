@@ -1,21 +1,21 @@
 export const servicePromotions = [
   {
     id: 1,
-    icon: "#icon_shipping",
-    title: "Fast And Free Delivery",
-    content: "Free delivery for all orders over $140",
+      icon: "#icon_shipping",
+    title: "УНИКАЛЬНЫЙ ЭКСПОРТ ",
+    content: "Мы обеспечиваем безопасные и эффективные экспортные решения.",
   },
   {
     id: 2,
     icon: "#icon_headphone",
-    title: "24/7 Customer Support",
-    content: "Friendly 24/7 customer support",
+    title: "ПОДДЕРЖКА КЛИЕНТОВ",
+    content: "Профессиональная помощь и консультации на каждом этапе.",
   },
   {
     id: 3,
     icon: "#icon_shield",
-    title: "Money Back Guarantee",
-    content: "We return money within 30 days",
+    title: "КАЧЕСТВО ПРОДУКТА",
+    content: "Гарантируем строгое соответствие стандартам и высокую надёжность.",
   },
 ];
 export const servicesData = [
