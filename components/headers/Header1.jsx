@@ -49,8 +49,8 @@ export default function Header1() {
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:info@vintagedenimuz.uz" className="menu-link menu-link_us-s color-white">
-                            info@vintagedenimuz.uz
+                        <a href="mailto:info@vintagedenim.uz" className="menu-link menu-link_us-s color-white">
+                            info@vintagedenim.uz
                         </a>
                     </li>
                 </ul>
