@@ -13,7 +13,7 @@ import Banner from "@/components/homes/home-1/Banner";
 import Blogs from "@/components/homes/home-1/Blogs";
 
 export const metadata = {
-  title: "Home 1 || Vintage Denim",
+  title: "Главная || Vintage Denim",
   description: "Vintage Denim",
 };
 export default function Home() {

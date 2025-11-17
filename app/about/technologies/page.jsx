@@ -9,7 +9,7 @@ import GridBanner from "@/components/homes/home-1/GridBanner";
 import Products4 from "@/components/homes/home-1/Products4";
 
 export const metadata = {
-    title: "About || Vintage Denim",
+    title: "О нас || Vintage Denim",
     description: "Vintage Denim",
 };
 export default function TechnologiesPage() {

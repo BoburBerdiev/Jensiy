@@ -7,7 +7,7 @@ import LocationMap from "@/components/otherPages/Contact/LocationMap";
 import React from "react";
 
 export const metadata = {
-  title: "Contact || Vintage Denim",
+  title: "Контакты || Vintage Denim",
   description: "Vintage Denim",
 };
 export default function ContactPage() {

@@ -7,9 +7,11 @@ import React from "react";
 import { allProducts } from "@/data/products";
 
 export const metadata = {
-  title: "Shop Single 8 || Vintage Denim",
+  title: "Каталог || Vintage Denim",
   description: "Vintage Denim",
 };
+
+
 export default async function ProductDetailsPage13(props) {
   const params = await props.params;
   const productId = params.id;

@@ -3,7 +3,7 @@ import Header1 from "@/components/headers/Header1";
 import React from "react";
 
 export const metadata = {
-    title: "About || Vintage Denim",
+    title: "О нас || Vintage Denim",
     description: "Vintage Denim",
 };
 

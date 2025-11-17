@@ -6,9 +6,14 @@ import Header1 from "@/components/headers/Header1";
 import React from "react";
 
 export const metadata = {
-  title: "Blog 2 || Vintage Denim",
+  title: "Новости || Vintage Denim",
   description: "Vintage Denim",
 };
+
+
+
+
+
 export default function BlogPage2() {
   return (
     <>
