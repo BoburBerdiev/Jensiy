@@ -96,8 +96,8 @@ export default function Footer2() {
             <div className="footer-column mb-4 mb-lg-0">
               <h6 className="sub-menu__title text-uppercase">Время работы</h6>
               <ul className="list-unstyled">
-                <li><span className="menu-link">Пн - Пт: 8:00 - 21:00</span></li>
-                <li><span className="menu-link">Сб: 9:00 - 20:00</span></li>
+                <li><span className="menu-link">Пн - Сб: 08:00 - 18:00</span></li>
+                {/*<li><span className="menu-link">Сб: 9:00 - 20:00</span></li>*/}
                 <li><span className="menu-link">Вс: Выходной</span></li>
               </ul>
             </div>
